@@ -23,10 +23,6 @@
     <script type="text/javascript">
       const mirador = Mirador.viewer({
         id: "mirador",
-        data: [
-        {manifest: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11104785/manifest'},
-        {manifest: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10252970/manifest'},
-        ],
         // All of the settings (with descriptions (ﾉ^∇^)ﾉﾟ) located here:
         // https://github.com/ProjectMirador/mirador/blob/master/src/config/settings.js
       });
@@ -37,12 +33,14 @@
     <div id="mirador2"></div>
 
     <script type="text/javascript">
+
+
+
+
+
       Mirador.viewer({
         id: "mirador2",
-        openManifestsPage: true,
         // Look you can open up Mirador with windows!!
-   
-
         windows: [
           {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10337083/manifest'},
          
