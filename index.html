@@ -23,10 +23,19 @@
     <script type="text/javascript">
       const mirador = Mirador.viewer({
         id: "mirador",
-        data: [
-        {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10252970/manifest'},
-        {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10522689/manifest'},
-        ],
+        catalog: [
+         { manifestId: "https://media.nga.gov/public/manifests/nga_highlights.json", provider: "National Gallery of Art"},
+         { manifestId: "https://data.ucd.ie/api/img/manifests/ucdlib:33064", provider: "Irish Architectural Archive"},
+         { manifestId: "https://wellcomelibrary.org/iiif/b18035723/manifest", provider: "Wellcome Library"},
+         { manifestId: "https://demos.biblissima.fr/iiif/metadata/florus-dispersus/manifest.json", provider: "Biblissima"},
+         { manifestId: "https://www.e-codices.unifr.ch/metadata/iiif/gau-Fragment/manifest.json", provider: "e-codices - Virtual Manuscript Library of Switzerland"},
+         { manifestId: "https://wellcomelibrary.org/iiif/collection/b18031511", provider: "Wellcome Library"},
+         { manifestId: "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10022508f/manifest.json", provider: "Bibliothèque nationale de France"},
+         { manifestId: "https://manifests.britishart.yale.edu/Osbornfa1", provider: "Beinecke Rare Book and Manuscript Library, Yale University"},
+         { manifestId: "https://iiif.biblissima.fr/chateauroux/B360446201_MS0005/manifest.json", provider: "Biblissima"},
+         { manifestId: "https://iiif.durham.ac.uk/manifests/trifle/32150/t1/m4/q7/t1m4q77fr328/manifest", provider: "Durham University Library"},
+         //{ manifestId: "https://iiif.vam.ac.uk/collections/O1023003/manifest.json", provider: "Ocean liners"},
+       ],
         // All of the settings (with descriptions (ﾉ^∇^)ﾉﾟ) located here:
         // https://github.com/ProjectMirador/mirador/blob/master/src/config/settings.js
       });
