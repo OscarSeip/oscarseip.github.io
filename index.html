@@ -39,9 +39,6 @@
     <script type="text/javascript">
 
 
-
-
-
       Mirador.viewer({
         id: "mirador2",
         // Look you can open up Mirador with windows!!
@@ -61,6 +58,20 @@
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
     <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+
+<div id="mirador3"></div>
+
+<script type="text/javascript">
+      $(function() {
+        Mirador({
+          id: "viewer",
+          data: [/* Manifests and collections here *]
+        });
+      });
+    </script>
+
+
+
     <script src="https://button.glitch.me/button.js"></script>
   </body>
 </html>
