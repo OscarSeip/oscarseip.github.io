@@ -13,66 +13,21 @@
     <script src="https://unpkg.com/mirador@alpha/dist/mirador.min.js"></script>
   </head>  
   <body>
- <h1>Theatres of Knowledge</h1>
-    
-    <p>
-      An exhaustive list of books that have the word theatre in their titles, printed between the sixteenth and eighteenth century in Western Europe
-    </p>
-    
-    <div id="mirador"></div>
-    <script type="text/javascript">
-      const mirador = Mirador.viewer({
-        id: "mirador",
-        data: [
-        {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10252970/manifest'},
-        {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10522689/manifest'},
-        ],
-        // All of the settings (with descriptions (ﾉ^∇^)ﾉﾟ) located here:
-        // https://github.com/ProjectMirador/mirador/blob/master/src/config/settings.js
-      });
-    </script>
+   <div id="mirador"></div>
 
-    <hr>
-
-    <div id="mirador2"></div>
-
+    <script src="mirador/mirador.min.js"></script>
     <script type="text/javascript">
 
-
-      Mirador.viewer({
-        id: "mirador2",
-        // Look you can open up Mirador with windows!!
-        data: [
-        {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10252970/manifest'},
-        {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10522689/manifest'},
-        ],
-
-        windows: [
-          {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10337083/manifest'},
-         
-          {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10337077/manifest'},
-        ]
-      });
+     $(function() {
+       var miradorInstance = Mirador.viewer({
+         id: "mirador",
+         layout: "1x1",
+         openManifestsPage: true,
+         windowObjects: [],
+       });
+       > miradorInstance
+       {actions, store}
+     });
     </script>
-
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-
-<div id="mirador3"></div>
-
-<script type="text/javascript">
-      $(function() {
-        Mirador({
-          id: "viewer",
-          data: [/* Manifests and collections here *]
-        });
-      });
-    </script>
-
-
-
-    <script src="https://button.glitch.me/button.js"></script>
-
   </body>
 </html>
