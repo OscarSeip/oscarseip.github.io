@@ -1,28 +1,56 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Theatres of Knowledge</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <title>Mirador</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
-  </head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the Mirador 3️⃣ -->
+    <script src="https://unpkg.com/mirador@alpha/dist/mirador.min.js"></script>
+  </head>  
   <body>
-    <div id="mirador" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"></div>
-    <script>document.write("<script type='text/javascript' src='../../../dist/mirador.min.js?v=" + Date.now() + "'><\/script>");</script>
+    <h1>Theatres of Knowledge</h1>
+    
+    <p>
+      An exhaustive list of books that have the word theatre in their titles, printed between the sixteenth and eighteenth century in Western Europe
+    </p>
+    
+    <div id="mirador"></div>
     <script type="text/javascript">
-     var miradorInstance = Mirador.viewer({
-       id: 'mirador',
-       windows: [{
-         manifestId: 'https://iiif.harvardartmuseums.org/manifests/object/299843',
-         canvasId: 'https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174892',
-         thumbnailNavigationPosition: 'far-bottom',
-       },
-       {
-         manifestId: 'https://iiif.bodleian.ox.ac.uk/iiif/manifest/e32a277e-91e2-4a6d-8ba6-cc4bad230410.json',
-       }],
-       catalog: [
+      const mirador = Mirador.viewer({
+        id: "mirador",
+        data: [
+        {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10252970/manifest'},
+        {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10522689/manifest'},
+        ],
+        // All of the settings (with descriptions (ﾉ^∇^)ﾉﾟ) located here:
+        // https://github.com/ProjectMirador/mirador/blob/master/src/config/settings.js
+      });
+    </script>
+
+    <hr>
+
+    <div id="mirador2"></div>
+
+    <script type="text/javascript">
+      Mirador.viewer({
+        id: "mirador2",
+        // Look you can open up Mirador with windows!!
+        data: [
+        {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10252970/manifest'},
+        {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10522689/manifest'},
+        ],
+
+        windows: [
+          {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10337083/manifest'},
+         
+          {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10337077/manifest'},
+        ],
+        catalog: [
          { manifestId: "https://media.nga.gov/public/manifests/nga_highlights.json", provider: "National Gallery of Art"},
          { manifestId: "https://data.ucd.ie/api/img/manifests/ucdlib:33064", provider: "Irish Architectural Archive"},
          { manifestId: "https://wellcomelibrary.org/iiif/b18035723/manifest", provider: "Wellcome Library"},
@@ -34,8 +62,13 @@
          { manifestId: "https://iiif.biblissima.fr/chateauroux/B360446201_MS0005/manifest.json", provider: "Biblissima"},
          { manifestId: "https://iiif.durham.ac.uk/manifests/trifle/32150/t1/m4/q7/t1m4q77fr328/manifest", provider: "Durham University Library"},
          //{ manifestId: "https://iiif.vam.ac.uk/collections/O1023003/manifest.json", provider: "Ocean liners"},
-       ]
-     });
+       ],
+      });
     </script>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
   </body>
 </html>
