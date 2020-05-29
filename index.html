@@ -13,65 +13,102 @@
     <script src="https://unpkg.com/mirador@alpha/dist/mirador.min.js"></script>
   </head>  
   <body>
-    <h1>Theatres of Knowledge</h1>
-    
-    <p>
-      An exhaustive list of books that have the word theatre in their titles, printed between the sixteenth and eighteenth century in Western Europe
-    </p>
-    
-    <div id="mirador"></div>
-    <script type="text/javascript">
-      const mirador = Mirador.viewer({
-        id: "mirador",
-        data: [
-        {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10252970/manifest'},
-        {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10522689/manifest'},
-        ],
-        // All of the settings (with descriptions (ﾉ^∇^)ﾉﾟ) located here:
-        // https://github.com/ProjectMirador/mirador/blob/master/src/config/settings.js
-      });
-    </script>
+   <div id="viewer"></div>
 
-    <hr>
-
-    <div id="mirador2"></div>
-
+    <script src="mirador/mirador.min.js"></script>
     <script type="text/javascript">
 
-
-      Mirador.viewer({
-        id: "mirador2",
-        // Look you can open up Mirador with windows!!
-        data: [
-        {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10252970/manifest'},
-        {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10522689/manifest'},
-        ],
-
-        windows: [
-          {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10337083/manifest'},
-         
-          {manifestId: 'https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10337077/manifest'},
-        ]
-      });
+     $(function() {
+       myMiradorInstance = Mirador({
+         id: "viewer",
+         layout: "1x1",
+         openManifestsPage: true,
+         buildPath: "mirador/",
+         data: [
+           { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10337083/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10337077/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11104785/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10252970/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10522689/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11204035/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10030121/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10252971/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10252972/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10072043/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11224613/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10030118/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10139601/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10989998/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10030120/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10586557/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10055450/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10899423/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10769903/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10769900/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10609773/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10368749/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10769906/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10596526/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10352834/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10863328/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10936916/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10596525/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10804653/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10470712/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10769901/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10691594/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10226895/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10132546/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11282679/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11267997/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10255363/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11096951/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11137556/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11095230/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11281739/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11293291/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10133411/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11105827/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10328239/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10739337/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10367462/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10287810/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10279836/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10322121/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10952606/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10679289/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10057717/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10515656/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10560961/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10042622/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11347871/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196483/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11057784/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11202980/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11197119/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11224760/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11224759/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11224765/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11296438/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11164786/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11197118/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11197120/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10007380/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10016535/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10005769/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10040816/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11216105/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00094155/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10122893/manifest", location: "BSB"},
+  { manifestUri: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10574916/manifest", location: "BSB"},
+         ],
+         windowObjects: [],
+         annotationEndpoint: {
+           name:"Local Storage",
+           module: "LocalStorageEndpoint" }
+       });
+     });
     </script>
-
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-
-<div id="mirador3"></div>
-
-<script type="text/javascript">
-      $(function() {
-        Mirador({
-          id: "viewer",
-          data: [/* Manifests and collections here *]
-        });
-      });
-    </script>
-
-
-
-    <script src="https://button.glitch.me/button.js"></script>
   </body>
 </html>
