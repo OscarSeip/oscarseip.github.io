@@ -121,7 +121,7 @@
 	header.special {
 		margin-bottom: 5em;
 		padding-top: 7em;
-		position: relative;
+		position: left;
 		text-align: center;
 	}
 
@@ -131,7 +131,7 @@
 */			content: '';
 			height: 7px;
 			opacity: 0.1;
-			position: absolute;
+			position: left;
 			top: 1.75em;
 			width: 43%;
 		}
