@@ -1,5 +1,5 @@
 {
-	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@context": "https://oscarseip.github.io/maifest.json",
 	"@type": "sc:Manifest",
 	"@id": "https://oscarseip.github.io/manifest.json",
 	"label": "Neumayr, Franz: Theatrum Politicum",
