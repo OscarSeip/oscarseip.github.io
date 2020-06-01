@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="mirador/css/mirador-combined.css">
+    <title>Theatres of Knowledge</title>
+  </head>
+  <body>
+    <div id="mirador" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"></div>
+    <script src="mirador/mirador.min.js"></script>
+    <script type="text/javascript">
+     var miradorInstance = Mirador.viewer({
+       id: 'mirador',
+       selectedTheme: 'dark',
+       annotationEndpoint: { name:"Local Storage", module: "LocalStorageEndpoint" },
+       annotations: {
+         htmlSanitizationRuleSet: 'iiif', // See src/lib/htmlRules.js for acceptable values
+         filteredMotivations: ['oa:commenting', 'oa:tagging', 'sc:painting', 'commenting', 'tagging'],
+         },
+       windows: [{
+         manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10337083/manifest",
+         thumbnailNavigationPosition: 'far-bottom'
+       },
+       {
+         manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10337077/manifest",
+         thumbnailNavigationPosition: 'far-bottom'
+       }],
+       catalog: [
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10337083/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10337077/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11104785/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10252970/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10522689/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11204035/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10030121/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10252971/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10252972/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10072043/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11224613/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10030118/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10139601/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10989998/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10030120/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10586557/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10055450/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10899423/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10769903/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10769900/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10609773/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10368749/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10769906/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10596526/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10352834/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10863328/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10936916/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10596525/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10804653/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10470712/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10769901/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10691594/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10226895/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10132546/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11282679/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11267997/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10255363/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11096951/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11137556/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11095230/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11281739/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11293291/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10133411/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11105827/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10328239/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10739337/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10367462/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10287810/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10279836/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10322121/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10952606/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10679289/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10057717/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10515656/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10560961/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10042622/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11347871/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196483/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11057784/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11202980/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11197119/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11224760/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11224759/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11224765/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11296438/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11164786/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11197118/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11197120/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10007380/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10016535/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10005769/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10040816/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11216105/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00094155/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10122893/manifest", provider: "BSB"},
+          { manifestId: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10574916/manifest", provider: "BSB"},
+       ]
+     });
+    </script>
+  </body>
+</html>
