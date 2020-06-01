@@ -40,17 +40,6 @@
   color: black; /* Black text color */
 }
 
-/* Image on frontpage */
-.image_frontpage {
-  
-}
-
-/* Body text */
-.body_text {
-  font-size: 15px;
-  text-align: left;
-}
-
 /* Footer */
 .footer {
   padding: 20px; /* Some padding */
