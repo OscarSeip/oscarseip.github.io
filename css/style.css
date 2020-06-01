@@ -43,6 +43,12 @@
   
 }
 
+/* Body text */
+.body_text {
+  font-size: 20px;
+  text-align: left;
+}
+
 /* Footer */
 .footer {
   padding: 20px; /* Some padding */
