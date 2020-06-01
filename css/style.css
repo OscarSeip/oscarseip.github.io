@@ -38,6 +38,13 @@
   color: black; /* Black text color */
 }
 
+/* Image on frontpage */
+.image_frontpage {
+  padding: 20px;
+  float: left;
+  
+}
+
 /* Footer */
 .footer {
   padding: 20px; /* Some padding */
