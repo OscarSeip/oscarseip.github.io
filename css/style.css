@@ -1,3 +1,5 @@
+?font
+
 /* Header */
 .header {
   padding: 20px; /* some padding */
@@ -45,7 +47,7 @@
 
 /* Body text */
 .body_text {
-  font-size: 20px;
+  font-size: 15px;
   text-align: left;
 }
 
