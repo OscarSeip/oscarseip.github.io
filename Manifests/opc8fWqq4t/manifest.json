@@ -1,7 +1,7 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
 	"@type": "sc:Manifest",
-	"@id": "https://github.com/OscarSeip/oscarseip.github.io/blob/master/Manifests/opc8fWqq4t/manifest.json",
+	"@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/opc8fWqq4t/manifest.json?token=ALHNMCKSTXWJIVEZKX5KVL264JGVI",
 	"label": "Adrichem, Christiaan van: Theatrum Terrae Sanctae Et Biblicarum Historiarum",
 	"metadata": [
 		{
