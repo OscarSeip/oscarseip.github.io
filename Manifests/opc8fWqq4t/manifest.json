@@ -2,7 +2,9 @@
 	"@context": "http://iiif.io/api/presentation/2/context.json",
 	"@type": "sc:Manifest",
 	"@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/opc8fWqq4t/manifest.json?token=ALHNMCKSTXWJIVEZKX5KVL264JGVI",
-	"label": "Adrichem, Christiaan van: Theatrum Terrae Sanctae Et Biblicarum Historiarum",
+	"label": [
+		"Adrichem, Christiaan van: Theatrum Terrae Sanctae Et Biblicarum Historiarum"
+	],
 	"metadata": [
 		{
 			"label": [
@@ -165,6 +167,14 @@
 				}
 			],
 			"value": "<span>VD17: <a href='http:/gso.gbv.de/DB=1.28/CMD?ACT=SRCHA&IKT=8002&TRM=%2712:119400Y%27'>12:119400Y</a></span>"
+		},
+		{
+			"label": "Label",
+			"value": "Value"
+		},
+		{
+			"label": "Field of science",
+			"value": "Geography"
 		}
 	],
 	"navDate": "1682-01-01T00:00:00Z",
