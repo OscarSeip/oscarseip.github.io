@@ -169,10 +169,6 @@
 			"value": "<span>VD17: <a href='http:/gso.gbv.de/DB=1.28/CMD?ACT=SRCHA&IKT=8002&TRM=%2712:119400Y%27'>12:119400Y</a></span>"
 		},
 		{
-			"label": "Label",
-			"value": "Value"
-		},
-		{
 			"label": "Field of science",
 			"value": "Geography"
 		}
