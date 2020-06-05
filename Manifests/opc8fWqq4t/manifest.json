@@ -171,6 +171,10 @@
 		{
 			"label": "Field of science",
 			"value": "Geography"
+		},
+		{
+			"label": "Contains illustrations",
+			"value": "Yes"
 		}
 	],
 	"navDate": "1682-01-01T00:00:00Z",
