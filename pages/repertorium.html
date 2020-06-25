@@ -17,7 +17,7 @@
           <a href="pages/editor">Mirador viewer</a>
         </div>
 
-    <div id="my-mirador"></div>
+    <div id="my-mirador"></div> 
     <script src="https://unpkg.com/mirador@beta/dist/mirador.min.js"></script>
     <script type="text/javascript">
       var mirador = Mirador.viewer({
@@ -107,6 +107,10 @@
           {"manifestId": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10122893", "provider": "BSB"},
           {"manifestId": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10574916", "provider": "BSB"},
       ],
+      "annotations": {
+    htmlSanitizationRuleSet: 'iiif', // See src/lib/htmlRules.js for acceptable values
+    filteredMotivations: ['oa:commenting', 'oa:tagging', 'sc:painting', 'commenting', 'tagging'],
+  },
 
       "windows": [
       {
