@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Theatres of Knowledge</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		* {
+		box-sizing: border-box;
+}
+
+body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+/* Create two columns/boxes that floats next to each other */
+
+article {
+	float: left;
+	padding: 20px;
+	width: 50%;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+	</style>
+
+</head>
+
+<body>
+
+	<div class="header">
+	<h1>Theatres of Knowledge</h1>
+	<p>An exhaustive list of printed books that have the word theatre in their title, published between the 16th and 18th century in Europe</p>
+</div>
+
+	<div class="navbar">
+					<a href="index.html">Home</a>
+					<a href="pages/repertorium.html">Repertorium</a>
+					<a href="https://github.com/OscarSeip/oscarseip.github.io" target="_blank">Docs</a>
+				</div>
+	
+<section>
+
+	<article>
+
+<ul>
+  <li>Christiaan van Adrichem, Theatrum Terrae Sanctae Et Biblicarum Historiarum (1682)</li>
+  <li>Franz Neumayr, Theatrum asceticum (1739 - 1747)</li>
+</ul> 
+
+	</article>
+</section>
+
+	<div class="footer">
+		<a href="https://www.biblhertz.it/en/research-groups/visualizing-science" target="_blank">Part of the research group Visualizing Science in Media Revolutions led by Dr Sietske Fransen at the Max Planck Institute for Art History in Rome</a>
+	</div>
+	
+
+</body>
+</html>
+	
