@@ -4,7 +4,7 @@
 	<title>Theatres of Knowledge</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<style>
 		* {
 		box-sizing: border-box;
@@ -13,6 +13,34 @@
 body {
 			font-family: Arial, Helvetica, sans-serif;
 		}
+/* Create two columns/boxes that floats next to each other */
+image {
+  float: left;
+  width: 50%;
+  background: #ccc;
+  padding: 20px;
+}
+
+article {
+	float: left;
+	padding: 20px;
+	width: 50%;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  image, article {
+    width: 100%;
+    height: auto;
+  }
+}
 
 	</style>
 
@@ -33,14 +61,14 @@ body {
 				</div>
 	
 <section>
+	<image>
+		<img src="https://oscarseip.github.io/images/VizScience.png" alt="Theatres of Knowledge" style="float: left; padding-right: 10px; width:30%;height:30%">
+	</image>
 
 	<article>
-
-<ul>
-  <li>Christiaan van Adrichem, Theatrum Terrae Sanctae Et Biblicarum Historiarum (1682)</li>
-  <li>Franz Neumayr, Theatrum asceticum (1739 - 1747)</li>
-</ul> 
-
+	<h1>Visualizing Theatres of Knowledge: The Science and Media of Epistemic Theatres in Early Modern Europe</h1>
+	<p>During the Early Modern Period in Western Europe, the theatre – as an image, metaphor, and concept – became an important space for artists, scholars, and scientific practitioners to debate a wide range of epistemological issues surrounding transgressions of the boundaries between image and word, presentation and presence, and knower and knowledge. As a new genre of printed works that drove technical innovations in the printing press; a new tool and practice of observing the world; and as promoting a new way to record and transmit these observations, the theatre radically altered knowledge discourses in early modern Western Europe.<br>
+	<p>	This project explores the intertwined history of ideas, science, and theatre during the sixteenth, seventeenth, and eighteenth century in Western Europe. It examines how artists, scholars, and scientific practitioners used the theatre to reimagine the world, and their place in it; and how the emergent early modern vision of nature as a theatre brought forth a new epistemology of depicting knowledge, which is distinctly theatrical. As a case study, the project sets out to classify a corpus of 842 printed works that have the word theatre in their title and were published between the 16th and 18th century in Western Europe. Based on previous work by Rossbach, I intend to create a visual database of these printed works, which will help answer in what field(s) of science these works appear; if the works contain practical and/or theoretical knowledge; and if there are different styles and strategies to represent knowledge in a figural/pictorial or abstract manner. Furthermore, this project seeks to explore the wider cultural context of these printed works, and the relationship between the page and early modern stage of the theatre.</p>
 	</article>
 </section>
 
