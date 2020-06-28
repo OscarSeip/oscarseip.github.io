@@ -34,6 +34,13 @@ nav ul {
   padding: 0;
 }
 
+.image {
+  float: left;
+  width: 30%;
+  background: #ccc;
+  padding: 20px;
+}
+
 .article {
   float: left;
   padding: 20px;
