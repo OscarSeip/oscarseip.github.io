@@ -20,7 +20,7 @@ body {
 }
 
 /* Create two columns/boxes that floats next to each other */
-nav {
+.nav {
   float: left;
   width: 30%;
   height: 300px; /* only for demonstration, should be removed */
@@ -36,7 +36,7 @@ nav ul {
 
 .image {
   float: left;
-  width: 100%;
+  width: 30%;
   background: #ccc;
   padding: 20px;
 }
