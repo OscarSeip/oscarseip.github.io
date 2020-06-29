@@ -2,7 +2,8 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/qpc8dYsh4q/manifest.json",
-  "label": "Neumayr, Franz: Theatrum asceticum",
+  "label": ["Neumayr, Franz: Theatrum asceticum"],
+  
   "metadata": [
     {
       "label": [
