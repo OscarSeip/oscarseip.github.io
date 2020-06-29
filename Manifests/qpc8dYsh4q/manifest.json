@@ -119,6 +119,14 @@
       ],
       "value": "Buch"
     }
+      {
+      "label": "Field of science",
+      "value": "Moral Philosophy"
+    },
+    {
+      "label": "Contains illustrations",
+      "value": "No"
+    }
   ],
   "navDate": "1747-01-01T00:00:00Z",
   "license": "http://rightsstatements.org/vocab/NoC-NC/1.0/",
