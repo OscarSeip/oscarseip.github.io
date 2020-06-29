@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10989998/manifest",
-  "label": "Theatrum Mundi, das ist, Der Welt Schauplatz, oder Spiegel der Welt",
+  "label": "Theatrum Mundi, das ist, Der Welt Schauplatz, oder Spiegel der Welt (1588)",
   "metadata": [
     {
       "label": [
