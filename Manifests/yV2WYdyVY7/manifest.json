@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10337083/manifest",
-  "label": "Neumayr, Franz: Theatrum Politicum",
+  "label": "Theatrum Politicum (1760)",
   "metadata": [
     {
       "label": [
