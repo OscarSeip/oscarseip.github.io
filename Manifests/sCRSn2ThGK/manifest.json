@@ -338,6 +338,10 @@
           },
           "on": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/5"
         }],
+         "width": 2468,
+            "height": 3895
+          },
+          {
         "otherContent": [{
             "@type": "sc:AnnotationList",
             "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/sCRSn2ThGK/annotations/f5.json"
