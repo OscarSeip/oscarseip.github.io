@@ -41291,4 +41291,10 @@
     "format": "image/png"
   },
   "viewingHint": "paged"
-}
+},
+ "otherContent": [
+            {
+              "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/sCRSn2ThGK/annotations/f5",
+              "@type": "oa:Annotation"
+            }
+          ]
