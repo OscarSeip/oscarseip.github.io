@@ -1,0 +1,38 @@
+[
+  {
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+      "oa:commenting"
+    ],
+    "resource": [
+      {
+        "@type": "dctypes:Text",
+        "format": "text/html",
+        "chars": "<p>Universae naturae theatrum</p>"
+      }
+    ],
+    "on": [
+      {
+        "@type": "oa:SpecificResource",
+        "full": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10133411/canvas/5",
+        "selector": {
+          "@type": "oa:Choice",
+          "default": {
+            "@type": "oa:FragmentSelector",
+            "value": "xywh=76,39,1013,316"
+          },
+          "item": {
+            "@type": "oa:SvgSelector",
+            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M76.40691,38.96353l506.52591,0l0,0l506.52591,0l0,157.8023l0,157.8023l-506.52591,0l-506.52591,0l0,-157.8023z\" data-paper-data=\"{&quot;defaultStrokeValue&quot;:1,&quot;editStrokeValue&quot;:5,&quot;currentStrokeValue&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_9ff687b0-a194-4df3-ac03-09b54d063eda\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"3.89635\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+          }
+        },
+        "within": {
+          "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/28ox4a3u2T/manifest.json",
+          "@type": "sc:Manifest"
+        }
+      }
+    ],
+    "@id": "d6958738-f322-4f87-812e-87ada156dfc0"
+  }
+]
