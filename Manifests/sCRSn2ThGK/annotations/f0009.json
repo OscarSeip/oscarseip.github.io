@@ -1,7 +1,7 @@
   {
     "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id":"https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/sCRSn2ThGK_Annotations/Manifests/sCRSn2ThGK/annotations/f0009.json",
-    "@type": "oa:Annotation",
+    "id":"https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/sCRSn2ThGK_Annotations/Manifests/sCRSn2ThGK/annotations/f0009.json",
+    "type": "Annotation",
     "motivation": "commenting",
     "body": 
       {
