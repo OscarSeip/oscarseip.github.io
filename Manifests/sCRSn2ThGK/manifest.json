@@ -472,6 +472,12 @@
               "on": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/9"
             }
           ],
+          "otherContent": [
+            {
+              "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/sCRSn2ThGK_Annotations/Manifests/sCRSn2ThGK/annotations/f0009.json",
+              "@type": "Annotation",
+              "label": "My annotations"
+            }],
           "width": 2468,
           "height": 3887
         },

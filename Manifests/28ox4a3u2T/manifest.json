@@ -3,6 +3,13 @@
   "@type": "sc:Manifest",
   "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/28ox4a3u2T/manifest.json",
   "label": "Universae Naturae Theatrum (1605)",
+  "service": {
+
+    "profile": "http://iiif.io/api/search/0/search",
+    "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/28ox4a3u2T/manifest.json",
+    "@context": "http://iiif.io/api/search/0/context.json"
+
+},
   "metadata": [
     {
       "label": [
@@ -171,6 +178,12 @@
               "on": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10133411/canvas/1"
             }
           ],
+          "otherContent": [
+            {
+              "@type": "sc:AnnotationList",
+              "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/sCRSn2ThGK_Annotations/Manifests/test.json"
+
+            }],
           "width": 1232,
           "height": 2029
         },
@@ -279,6 +292,11 @@
               "on": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10133411/canvas/5"
             }
           ],
+              "otherContent": [
+            {
+              "@type": "sc:AnnotationList",
+              "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/sCRSn2ThGK_Annotations/Manifests/test.json"
+            }],
           "width": 1236,
           "height": 2030
         },
