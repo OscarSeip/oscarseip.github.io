@@ -3,6 +3,13 @@
   "@type": "sc:Manifest",
   "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/28ox4a3u2T/manifest.json",
   "label": "Universae Naturae Theatrum (1605)",
+  "service": {
+
+    "profile": "http://iiif.io/api/search/0/search",
+    "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/28ox4a3u2T/manifest.json",
+    "@context": "http://iiif.io/api/search/0/context.json"
+
+},
   "metadata": [
     {
       "label": [
