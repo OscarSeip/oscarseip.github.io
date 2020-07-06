@@ -1,0 +1,40 @@
+{
+  "startIndex" : 0,
+  "within" : {
+    "total" : "2",
+    "@type" : "sc:Layer"
+  },
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "@id" : "http://localhost:8888/annotation/1594031589008",
+    "@type" : "oa:Annotation",
+    "dcterms:created" : "2020-07-06T11:33:09",
+    "resource" : {
+      "@id" : "_:b2",
+      "@type" : "dctypes:Text",
+      "http://dev.llgc.org.uk/sas/full_text" : "Theatrum mundi, das ist, Der Welt Schauplatz, oder Spiegel der Welt: darinnen vom Elende, Tr&uuml;bsal vnd Jammer der Menschen, auch Untugenden vnd Lastern, so jetziger Zeit allgemein sind, aussf&uuml;hrlich gehandelt wird",
+      "format" : "text/html",
+      "chars" : "<p>Theatrum mundi, das ist, Der Welt Schauplatz, oder Spiegel der Welt: darinnen vom Elende, Tr&uuml;bsal vnd Jammer der Menschen, auch Untugenden vnd Lastern, so jetziger Zeit allgemein sind, aussf&uuml;hrlich gehandelt wird</p>"
+    },
+    "on" : "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10989998/canvas/5#xywh=16,200,1516,1278",
+    "motivation" : [ "oa:commenting" ],
+    "@context" : "http://iiif.io/api/presentation/2/context.json",
+    "label" : "Theatrum mundi, das ist, Der Welt Schauplatz, oder Spiegel der Welt"
+  }, {
+    "@id" : "http://localhost:8888/annotation/1594031607026",
+    "@type" : "oa:Annotation",
+    "dcterms:created" : "2020-07-06T11:33:27",
+    "resource" : {
+      "@id" : "_:b2",
+      "@type" : "dctypes:Text",
+      "http://dev.llgc.org.uk/sas/full_text" : "Jean Bodin",
+      "format" : "text/html",
+      "chars" : "<p>Jean Bodin</p>"
+    },
+    "on" : "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10989998/canvas/5#xywh=243,676,642,88",
+    "motivation" : [ "oa:commenting" ],
+    "@context" : "http://iiif.io/api/presentation/2/context.json",
+    "label" : "Jean Bodin"
+  } ],
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
