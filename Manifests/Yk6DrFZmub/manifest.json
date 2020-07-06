@@ -326,6 +326,13 @@
               "on": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10989998/canvas/5"
             }
           ],
+          "otherContent": [
+            {
+              "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/Yk6DrFZmub/lists/page5.json",
+              "@type": "Annotation",
+              "label": "My annotations"
+            }],
+
           "width": 1649,
           "height": 2327
         },
