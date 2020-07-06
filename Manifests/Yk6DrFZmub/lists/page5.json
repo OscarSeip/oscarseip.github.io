@@ -1,0 +1,56 @@
+{
+    "resources": [
+        {
+            "on": [
+                {
+                    "within": {
+                        "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/Yk6DrFZmub/manifest.json",
+                        "@type": "sc:Manifest"
+                    },
+                    "@id": "_:b0",
+                    "@type": "oa:SpecificResource",
+                    "full": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10989998/canvas/5",
+                    "selector": {
+                        "default": {
+                            "@id": "_:b4",
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=16,200,1516,1278"
+                        },
+                        "item": {
+                            "@id": "_:b5",
+                            "@type": "oa:SvgSelector",
+                            "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1532.09625,200.17547h-758.14906v0h-758.14906v639.2402v639.2402h758.14906h758.14906v-639.2402z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_d56f06b5-7ed7-4694-bf80-ca975e152ff6\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                        },
+                        "@id": "_:b1",
+                        "@type": "oa:Choice"
+                    }
+                }
+            ],
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "resource": [
+                {
+                    "chars": "<p>Theatrum mundi, das ist, Der Welt Schauplatz, oder Spiegel der Welt: darinnen vom Elende, Tr&uuml;bsal vnd Jammer der Menschen, auch Untugenden vnd Lastern, so jetziger Zeit allgemein sind, aussf&uuml;hrlich gehandelt wird</p>",
+                    "http://dev.llgc.org.uk/sas/full_text": "Theatrum mundi, das ist, Der Welt Schauplatz, oder Spiegel der Welt: darinnen vom Elende, Tr&uuml;bsal vnd Jammer der Menschen, auch Untugenden vnd Lastern, so jetziger Zeit allgemein sind, aussf&uuml;hrlich gehandelt wird",
+                    "@id": "_:b2",
+                    "@type": "dctypes:Text",
+                    "format": "text/html"
+                },
+                {
+                    "chars": "title page",
+                    "http://dev.llgc.org.uk/sas/full_text": "title page",
+                    "@id": "_:b3",
+                    "@type": "oa:Tag"
+                }
+            ],
+            "dcterms:created": "2020-07-06T16:46:05",
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "http://localhost:8888/annotation/1594050365188",
+            "@type": "oa:Annotation"
+        }
+    ],
+    "@type": "sc:AnnotationList",
+    "context": "http://iiif.io/api/presentation/2/context.json"
+}
