@@ -1,11 +1,8 @@
 {
-  "startIndex" : 0,
-  "within" : {
-    "total" : "2",
-    "@type" : "sc:Layer"
-  },
-  "@type" : "sc:AnnotationList",
-    "resources": [
+       "@context":"http://iiif.io/api/presentation/2/context.json",
+       "@id":"https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/Yk6DrFZmub/lists",
+       "@type":"sc:AnnotationList",
+        "resources": [
         {
             "on": [
                 {
