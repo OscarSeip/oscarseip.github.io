@@ -1,4 +1,10 @@
 {
+  "startIndex" : 0,
+  "within" : {
+    "total" : "2",
+    "@type" : "sc:Layer"
+  },
+  "@type" : "sc:AnnotationList",
     "resources": [
         {
             "on": [
@@ -51,6 +57,5 @@
             "@type": "oa:Annotation"
         }
     ],
-    "@type": "sc:AnnotationList",
     "context": "http://iiif.io/api/presentation/2/context.json"
 }
