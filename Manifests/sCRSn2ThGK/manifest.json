@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/manifest",
-  "label": "Theatrum vitae humanae (1565)",
+  "label": "Zwinger, Theatrum vitae humanae (1565)",
   "metadata": [
     {
       "label": [

@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10173478/manifest",
-  "label": "Theatrum Mundi minoris sive humanae calamitatis (1589)",
+  "label": "Anonym, Theatrum Mundi minoris sive humanae calamitatis (1589)",
   "metadata": [
     {
       "label": [

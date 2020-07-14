@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10252972/manifest",
-  "label": "Deutsches Theatrum Chemicum, 3 (1732)",
+  "label": "Bacon, Deutsches Theatrum Chemicum, 3 (1732)",
   "metadata": [
     {
       "label": [

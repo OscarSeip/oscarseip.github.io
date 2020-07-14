@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/Yk6DrFZmub/manifest.json",
-  "label": "Theatrum Mundi, das ist, Der Welt Schauplatz, oder Spiegel der Welt (1588)",
+  "label": "Anonym, Theatrum Mundi, das ist, Der Welt Schauplatz, oder Spiegel der Welt (1588)",
   "metadata": [
     {
       "label": [

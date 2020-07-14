@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10252970/manifest",
-  "label": "Deutsches Theatrum Chemicum, 1 (1728)",
+  "label": "Anonym, Deutsches Theatrum Chemicum, 1 (1728)",
   "metadata": [
     {
       "label": [

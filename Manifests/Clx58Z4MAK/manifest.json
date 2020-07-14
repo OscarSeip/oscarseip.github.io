@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10139601/manifest",
-  "label": "Theatrum Galeni (1568)",
+  "label": "Mondella, Theatrum Galeni (1568)",
   "metadata": [
     {
       "label": [

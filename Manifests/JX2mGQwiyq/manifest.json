@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10132546/manifest",
-  "label": "Magiae omnifariae theatrum (1606)",
+  "label": "Cicogna, Magiae omnifariae theatrum (1606)",
   "metadata": [
     {
       "label": [

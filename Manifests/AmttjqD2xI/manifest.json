@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10367462/manifest",
-  "label": "Theatrum Praxeos Medicae (1710)",
+  "label": "Zwinger, Theatrum Praxeos Medicae (1710)",
   "metadata": [
     {
       "label": [

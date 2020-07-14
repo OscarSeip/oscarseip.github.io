@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11296438/manifest",
-  "label": "Doctrinae Pontificiae Theatrum (1586)",
+  "label": "Pandocheus, Doctrinae Pontificiae Theatrum (1586)",
   "metadata": [
     {
       "label": [
