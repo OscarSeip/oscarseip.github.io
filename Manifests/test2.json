@@ -1,0 +1,285 @@
+{
+  "startIndex" : 0,
+  "within" : {
+    "total" : "2",
+    "@type" : "sc:Layer"
+},
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "@id" : "http://c101-018.cloud.gwdg.de/sas/annotation/1594826245419",
+    "@type" : "oa:Annotation",
+    "dcterms:created" : "2020-07-15T15:17:25",
+    "resource" : [ {
+      "@id" : "_:b2",
+      "@type" : "dctypes:Text",
+      "http://dev.llgc.org.uk/sas/full_text" : "test annotation 2",
+      "format" : "text/html",
+      "chars" : "<p>test annotation 2</p>"
+    }, {
+      "@id" : "_:b3",
+      "@type" : "oa:Tag",
+      "http://dev.llgc.org.uk/sas/full_text" : "test",
+      "chars" : "test"
+    } ],
+    "on" : [ {
+      "@id" : "_:b0",
+      "@type" : "oa:SpecificResource",
+      "within" : {
+        "@id" : "https://digilib.mpiwg-berlin.mpg.de/digitallibrary/Manifester/IIIF/experimental%21digilib-test%21images/manifest",
+        "@type" : "sc:Manifest"
+      },
+      "selector" : {
+        "@id" : "_:b1",
+        "@type" : "oa:Choice",
+        "default" : {
+          "@id" : "_:b4",
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=964,1823,395,280"
+        },
+        "item" : {
+          "@id" : "_:b5",
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M964.45956,1822.97674h197.5637v0h197.5637v139.85693v139.85693h-197.5637h-197.5637v-139.85693z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_fb199ad2-afca-481a-aafb-a81cbeb5a312\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        }
+      },
+      "full" : "https://digilib.mpiwg-berlin.mpg.de/digitallibrary/Manifester/IIIF/experimental%21digilib-test%21images/canvas/p1"
+    } ],
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "@context" : "http://iiif.io/api/presentation/2/context.json"
+  }, {
+    "@id" : "http://c101-018.cloud.gwdg.de/sas/annotation/1594830163119",
+    "@type" : "oa:Annotation",
+    "dcterms:created" : "2020-07-15T16:22:43",
+    "resource" : [ {
+      "@id" : "_:b2",
+      "@type" : "oa:Tag",
+      "http://dev.llgc.org.uk/sas/full_text" : "test",
+      "chars" : "test"
+    }, {
+      "@id" : "_:b3",
+      "@type" : "dctypes:Text",
+      "http://dev.llgc.org.uk/sas/full_text" : "test annotation 3",
+      "format" : "text/html",
+      "chars" : "<p>test annotation 3</p>"
+    } ],
+    "on" : [ {
+      "@id" : "_:b0",
+      "@type" : "oa:SpecificResource",
+      "within" : {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11296438/manifest",
+        "@type" : "sc:Manifest"
+      },
+      "selector" : {
+        "@id" : "_:b1",
+        "@type" : "oa:Choice",
+        "default" : {
+          "@id" : "_:b4",
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=372,250,397,368"
+        },
+        "item" : {
+          "@id" : "_:b5",
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M371.55258,249.84631h198.50961v0h198.50961v183.84732v183.84732h-198.50961h-198.50961v-183.84732z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_c9127be7-f9e9-4fee-9e3f-0e623cdcf4c2\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        }
+      },
+      "full" : "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11296438/canvas/1"
+    } ],
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "@context" : "http://iiif.io/api/presentation/2/context.json"
+  }, {
+    "@id" : "http://c101-018.cloud.gwdg.de/sas/annotation/1594836404258",
+    "@type" : "oa:Annotation",
+    "dcterms:created" : "2020-07-15T18:06:44",
+    "resource" : [ {
+      "@id" : "_:b2",
+      "@type" : "dctypes:Text",
+      "http://dev.llgc.org.uk/sas/full_text" : "printer's mark",
+      "format" : "text/html",
+      "chars" : "<p>printer's mark</p>"
+    } ],
+    "on" : [ {
+      "@id" : "_:b0",
+      "@type" : "oa:SpecificResource",
+      "within" : {
+        "@id" : "https://www.e-rara.ch/zut/i3f/v20/2224875/manifest",
+        "@type" : "sc:Manifest"
+      },
+      "selector" : {
+        "@id" : "_:b1",
+        "@type" : "oa:Choice",
+        "default" : {
+          "@id" : "_:b3",
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=517,1509,1120,1193"
+        },
+        "item" : {
+          "@id" : "_:b4",
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M516.80865,1508.81531h560.00166v0h560.00166v596.26123v596.26123h-560.00166h-560.00166v-596.26123z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_500c7315-f49d-4f79-a25b-eeb5bf508bda\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        }
+      },
+      "full" : "https://www.e-rara.ch/zut/i3f/v20/2224875/canvas/2224882"
+    } ],
+    "motivation" : [ "oa:commenting" ],
+    "@context" : "http://iiif.io/api/presentation/2/context.json"
+  }, {
+    "@id" : "http://c101-018.cloud.gwdg.de/sas/annotation/1594837810460",
+    "@type" : "oa:Annotation",
+    "dcterms:created" : "2020-07-15T18:30:10",
+    "dcterms:modified" : [ "2020-07-15T18:49:32", "2020-07-16T07:17:22" ],
+    "resource" : [ {
+      "@id" : "_:b2",
+      "@type" : "oa:Tag",
+      "http://dev.llgc.org.uk/sas/full_text" : "human",
+      "chars" : "human"
+    }, {
+      "@id" : "_:b3",
+      "@type" : "dctypes:Text",
+      "http://dev.llgc.org.uk/sas/full_text" : "Portrait",
+      "format" : "text/html",
+      "chars" : "<p>Portrait</p>"
+    } ],
+    "on" : [ {
+      "@id" : "_:b0",
+      "@type" : "oa:SpecificResource",
+      "within" : {
+        "@id" : "https://www.e-rara.ch/bau_1/i3f/v20/20950281/manifest",
+        "@type" : "sc:Manifest"
+      },
+      "selector" : {
+        "@id" : "_:b1",
+        "@type" : "oa:Choice",
+        "default" : {
+          "@id" : "_:b4",
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=198,319,1280,1761"
+        },
+        "item" : {
+          "@id" : "_:b5",
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M198.02276,318.53333h640.1122v0h640.1122v880.5122v880.5122h-640.1122h-640.1122v-880.5122z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_f68737e8-ea74-4d24-aa52-34a268b0fce5\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"21.78283\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        }
+      },
+      "full" : "https://www.e-rara.ch/bau_1/i3f/v20/20950281/canvas/20950283"
+    } ],
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "@context" : "http://iiif.io/api/presentation/2/context.json"
+  }, {
+    "@id" : "http://c101-018.cloud.gwdg.de/sas/annotation/1594887759738",
+    "@type" : "oa:Annotation",
+    "dcterms:created" : "2020-07-16T08:22:39",
+    "dcterms:modified" : "2020-07-16T08:59:45",
+    "resource" : [ {
+      "@id" : "_:b2",
+      "@type" : "oa:Tag",
+      "http://dev.llgc.org.uk/sas/full_text" : "Title page",
+      "chars" : "Title page"
+    }, {
+      "@id" : "_:b3",
+      "@type" : "dctypes:Text",
+      "http://dev.llgc.org.uk/sas/full_text" : "Theatrum vitae humanae",
+      "format" : "text/html",
+      "chars" : "<p>Theatrum vitae humanae</p>"
+    } ],
+    "on" : [ {
+      "@id" : "_:b0",
+      "@type" : "oa:SpecificResource",
+      "within" : {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/manifest",
+        "@type" : "sc:Manifest"
+      },
+      "selector" : {
+        "@id" : "_:b1",
+        "@type" : "oa:Choice",
+        "default" : {
+          "@id" : "_:b4",
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=-2,194,2336,1633"
+        },
+        "item" : {
+          "@id" : "_:b5",
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M-2,193.93008h1168.1v0h1168.1v816.32195v816.32195h-1168.1h-1168.1v-816.32195z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_bf9d591a-bc6f-4303-a69f-c8c4a0ca695d\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1.41345\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        }
+      },
+      "full" : "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/9"
+    } ],
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "@context" : "http://iiif.io/api/presentation/2/context.json"
+  }, {
+    "@id" : "http://c101-018.cloud.gwdg.de/sas/annotation/1594888536997",
+    "@type" : "oa:Annotation",
+    "dcterms:created" : "2020-07-16T08:35:37",
+    "resource" : [ {
+      "@id" : "_:b2",
+      "@type" : "dctypes:Text",
+      "http://dev.llgc.org.uk/sas/full_text" : "test Oscar",
+      "format" : "text/html",
+      "chars" : "<p>test Oscar</p>"
+    } ],
+    "on" : [ {
+      "@id" : "_:b0",
+      "@type" : "oa:SpecificResource",
+      "within" : {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/manifest",
+        "@type" : "sc:Manifest"
+      },
+      "selector" : {
+        "@id" : "_:b1",
+        "@type" : "oa:Choice",
+        "default" : {
+          "@id" : "_:b4",
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=763,1958,780,1007"
+        },
+        "item" : {
+          "@id" : "_:b3",
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M877.07798,2105.79817c72.00222,-84.59649 173.57301,-147.59263 275.63601,-147.51736v0v0c102.063,0.07526 190.977,59.00714 275.63601,147.51736c84.65901,88.51023 117.5649,223.38272 114.17217,356.13841c-3.39272,132.75569 -43.08406,263.39458 -114.17217,356.13841c-71.08811,92.74384 -173.57301,147.59263 -275.63601,147.51736c-102.063,-0.07526 -203.70411,-55.07458 -275.63601,-147.51736c-71.9319,-92.44278 -114.15459,-222.32902 -114.17217,-356.13841c-0.01758,-133.80939 42.16996,-271.54193 114.17217,-356.13841z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_29dd7657-16c6-468a-9e15-e2ba0edf4b31\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        }
+      },
+      "full" : "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/9"
+    } ],
+    "motivation" : [ "oa:commenting" ],
+    "@context" : "http://iiif.io/api/presentation/2/context.json"
+  }, {
+    "@id" : "http://c101-018.cloud.gwdg.de/sas/annotation/1594889004442",
+    "@type" : "oa:Annotation",
+    "dcterms:created" : "2020-07-16T08:43:24",
+    "resource" : [ {
+      "@id" : "_:b2",
+      "@type" : "dctypes:Text",
+      "http://dev.llgc.org.uk/sas/full_text" : "another test by oscar",
+      "format" : "text/html",
+      "chars" : "<p>another test by oscar</p>"
+    } ],
+    "on" : [ {
+      "@id" : "_:b0",
+      "@type" : "oa:SpecificResource",
+      "within" : {
+        "@id" : "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/manifest",
+        "@type" : "sc:Manifest"
+      },
+      "selector" : {
+        "@id" : "_:b1",
+        "@type" : "oa:Choice",
+        "default" : {
+          "@id" : "_:b4",
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=457,2969,1429,329"
+        },
+        "item" : {
+          "@id" : "_:b3",
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M456.56313,2968.87205h714.27104v0h714.27104v164.59428v164.59428h-714.27104h-714.27104v-164.59428z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_e1a2bea7-9892-4041-9e12-528ccfc9a537\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        }
+      },
+      "full" : "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/9"
+    } ],
+    "motivation" : [ "oa:commenting" ],
+    "@context" : "http://iiif.io/api/presentation/2/context.json"
+  } ],
+  "@id" : "http://c101-018.cloud.gwdg.de/sas/annotation/",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}

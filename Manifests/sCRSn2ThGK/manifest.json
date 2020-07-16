@@ -474,9 +474,8 @@
           ],
           "otherContent": [
             {
-              "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/sCRSn2ThGK_Annotations/Manifests/sCRSn2ThGK/annotations/f0009.json",
-              "@type": "Annotation",
-              "label": "My annotations"
+              "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/Manifests/test2.json",
+              "@type": "sc:AnnotationList"
             }],
           "width": 2468,
           "height": 3887
