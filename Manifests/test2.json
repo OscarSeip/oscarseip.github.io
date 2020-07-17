@@ -180,7 +180,7 @@
       "@type" : "dctypes:Text",
       "http://dev.llgc.org.uk/sas/full_text" : "Theatrum vitae humanae",
       "format" : "text/html",
-      "chars" : "<p>Theatrum vitae humanae</p>"
+      "chars" : "<p>Theatrum vitae humanae, omnium fere eorum, quae in hominem cadere possunt, Bonorum atque Malorum exempla historica, Ethicae philosophiae praeceptis accommodata, et in XIX. libros digesta, comprehendens: Ut non immeritò Historiae promptuarium, vitaeque, humanae speculum nuncupari possit.</p>"
     } ],
     "on" : [ {
       "@id" : "_:b0",
