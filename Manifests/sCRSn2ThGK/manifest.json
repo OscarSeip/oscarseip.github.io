@@ -3,6 +3,11 @@
   "@type": "sc:Manifest",
   "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/manifest",
   "label": "Zwinger, Theatrum vitae humanae (1565)",
+  "service": {
+  "context": "http://iiif.io/api/search/0/context.json",
+  "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/manifest",
+  "profile": "http://iiif.io/api/search/0/search"
+  },
   "metadata": [
     {
       "label": [
