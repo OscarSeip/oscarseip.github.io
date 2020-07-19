@@ -232,6 +232,18 @@
       "profile": "https://lod.b3kat.de/doc"
     }
   ],
+"structures": [
+  {
+    "id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/1",
+    "type": "Range",
+    "label": { "en": [ "Title page"] },
+    "items": [
+      {
+        "id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/1",
+        "type": "canvas"
+      }
+    ]
+  }],
   "sequences": [
     {
       "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/sequences/normal",
