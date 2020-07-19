@@ -232,18 +232,59 @@
       "profile": "https://lod.b3kat.de/doc"
     }
   ],
+
 "structures": [
-  {
-    "id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/9",
-    "type": "Range",
-    "label": { "en": [ "Title page"] },
-    "items": [
-      {
-        "id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/9",
-        "type": "canvas"
-      }
-    ]
-  }],
+    {
+      "@type": "sc:Range",
+      "label": "Table of Contents",
+      "viewingHint": "top",
+      "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/range/0",
+      "ranges": [
+        "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/range/r1",
+        "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/range/r2",
+        "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/range/r3"
+      ]
+    },
+    {
+      "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/range/r1",
+      "@type": "sc:Range",
+      "label": "Cover and flyleaves",
+      "within": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/range/0",
+      "canvases": [
+        "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/1",
+        "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/2",
+        "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/3",
+        "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/4",
+        "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/5",
+        "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/6",
+        "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/7",
+        "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/8"
+      ]
+    },
+    {
+      "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/range/r2",
+      "@type": "sc:Range",
+      "label": "Title page",
+      "within": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/range/0",
+      "canvases": [
+        "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/9",
+        "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/10"
+      ]
+    },
+    {
+      "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/range/r3",
+      "@type": "sc:Range",
+      "label": "Introduction",
+      "within": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/range/0",
+      "canvases": [
+        "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/11",
+        "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/12",
+        "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/13"
+      ]
+    }
+  ],
+  
+
   "sequences": [
     {
       "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/sequences/normal",
