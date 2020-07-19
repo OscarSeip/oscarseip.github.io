@@ -234,12 +234,12 @@
   ],
 "structures": [
   {
-    "id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/1",
+    "id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/9",
     "type": "Range",
     "label": { "en": [ "Title page"] },
     "items": [
       {
-        "id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/1",
+        "id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/9",
         "type": "canvas"
       }
     ]
