@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10942315/manifest",
-  "label": "Cardano, Liber unus ... Artis magnae sive de regulis algebraicis (1545)",
+  "label": "Cardano, Artis magnae...quasi in theatro quodam omnibus ad spectandum exposito… (1545)",
   "metadata": [
     {
       "label": [
