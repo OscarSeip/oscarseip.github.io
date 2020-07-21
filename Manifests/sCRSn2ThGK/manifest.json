@@ -234,6 +234,7 @@
   ],
   "sequences": [
     {
+      "startCanvas": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/canvas/9",
       "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196453/sequences/normal",
       "@type": "sc:Sequence",
       "canvases": [
