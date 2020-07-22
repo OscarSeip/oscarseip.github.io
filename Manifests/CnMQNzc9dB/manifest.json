@@ -5366,10 +5366,10 @@
   ],
   "viewingDirection": "left-to-right",
   "thumbnail": {
-    "@id": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10942315_00001/full/280,/0/default.jpg",
+    "@id": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10942315_00005/full/280,/0/default.jpg",
     "service": {
       "@context": "http://iiif.io/api/image/2/context.json",
-      "@id": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10942315_00001",
+      "@id": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10942315_00005",
       "profile": "http://iiif.io/api/image/2/level2.json",
       "protocol": "http://iiif.io/api/image"
     },
