@@ -85,7 +85,7 @@
           ],
               "otherContent": [
             {
-              "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/test2.json",
+              "@id": "",
               "@type": "sc:AnnotationList"
             }],
           "label": "[3]",
