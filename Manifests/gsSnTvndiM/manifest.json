@@ -83,6 +83,11 @@
               "@type": "oa:Annotation"
             }
           ],
+              "otherContent": [
+            {
+              "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/test2.json",
+              "@type": "sc:AnnotationList"
+            }],
           "label": "[3]",
           "@id": "https://www.e-rara.ch/gep_g/i3f/v20/1752472/canvas/2020673",
           "@type": "sc:Canvas"
