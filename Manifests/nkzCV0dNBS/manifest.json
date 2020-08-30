@@ -2,7 +2,7 @@
     "@context": "https://iiif.io/api/presentation/2/context.json",
     "@id": "https://plume.epfl.ch/iiif/1449/manifest",
     "@type": "sc:Manifest",
-    "label": "Böckler, Theatrum machinarum novum (1662)",
+    "label": "Theatrum machinarum novum",
     "metadata": [
         {
             "label": "Number",
@@ -541,14 +541,8 @@
                                 "@id": "https://plume.epfl.ch/i/?IIIF=/23/e0/62/73/23e06273-10c9-48db-b577-f3525c84f0e5/iiif/CHEPFL_LIPR_AXC4_000013.tif/full/full/0/default.jpg"
                             }
                         }
-                    ],
-                    "otherContent": [
-            {
-              "@id": "",
-              "@type": "sc:AnnotationList"
-            }],
+                    ]
                 },
-
                 {
                     "@id": "https://plume.epfl.ch/iiif/1449/canvas/14",
                     "label": "14",
