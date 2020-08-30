@@ -427,11 +427,6 @@
                                     "profile": "https://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
                                     "@id": "https://plume.epfl.ch/i/?IIIF=/23/e0/62/73/23e06273-10c9-48db-b577-f3525c84f0e5/iiif/CHEPFL_LIPR_AXC4_000009.tif"
                                 },
-                            "otherContent": [
-                            {
-                                 "@id": "",
-                                 "@type": "sc:AnnotationList"
-                                }],
                                 "height": 4070,
                                 "width": 2842,
                                 "@type": "dctypes:Image",
