@@ -116,19 +116,7 @@
                      },
                      "on":"https://iiif.lib.virginia.edu/iiif/dl/uva-lib:830320/canvas/c3"
                   }
-               ],
-
-
-              "otherContent": [
-            {
-              "@id": "",
-              "@type": "sc:AnnotationList"
-            }],
-
-
-
-
-               
+               ],        
             },{
                "@id":"https://iiif.lib.virginia.edu/iiif/dl/uva-lib:830320/canvas/c4",
                "@type":"sc:Canvas",
@@ -154,7 +142,10 @@
                      },
                      "on":"https://iiif.lib.virginia.edu/iiif/dl/uva-lib:830320/canvas/c4"
                   }
-               ]
+               ],
+               
+
+               
             },{
                "@id":"https://iiif.lib.virginia.edu/iiif/dl/uva-lib:830320/canvas/c5",
                "@type":"sc:Canvas",
