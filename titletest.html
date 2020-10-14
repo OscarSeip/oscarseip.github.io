@@ -1,77 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Theatres of Knowledge</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<style>
-		* {
-		box-sizing: border-box;
-}
-
-body {
-			font-family: Arial, Helvetica, sans-serif;
-		}
-/* Create two columns/boxes that floats next to each other */
-image {
-  float: left;
-  width: 50%;
-  background: #ccc;
-  padding: 20px;
-}
-
-article {
-	float: left;
-	padding: 20px;
-	width: 50%;
-}
-
-/* Clear floats after the columns */
-section:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  image, article {
-    width: 100%;
-    height: auto;
-  }
-}
-
-	</style>
-
-</head>
-
-<body>
-
-	<div class="header">
-	<h1>Theatres of Knowledge</h1>
-	<p>A database of printed books that have the word theatre in their title, published between the 16th and 18th century in Europe</p>
-</div>
-
-	<div class="navbar">
-					<a href="index.html">Home</a>
-					<a href="pages/repertorium.html">Repertorium</a>
-					<a href="https://github.com/OscarSeip/oscarseip.github.io" target="_blank">Code</a>
-					<a href="titlelist2.html">Title list</a>
-					<a href="research.html">Research</a>
-				</div>
-	
-<section>
-
- <iframe src="https://www.zotero.org/groups/2586230/theatres_of_knowledge/library" title="Theatres of Knowledge"> 
-
-</section>
-
-	<div class="footer">
-		<a href="https://www.biblhertz.it/en/research-groups/visualizing-science" target="_blank">Part of the research group Visualizing Science in Media Revolutions led by Dr Sietske Fransen at the Max Planck Institute for Art History in Rome</a>
-	</div>
-	
-
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>Zotero | Your personal research assistant</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="/static/web-library/zotero-web-library.1602610860.css" media="screen" rel="stylesheet" type="text/css" />		<meta name="robots" content="nofollow" />	</head>
+	<body>
+		<div id="zotero-web-library"></div>
+		<script type="application/json" id="zotero-web-library-config">
+			{
+    "apiConfig": {
+        "apiAuthorityPart": "api.zotero.org"
+    },
+    "streamingApiUrl": "wss:\/\/stream.zotero.org",
+    "translateUrl": "https:\/\/t0guvf0w17.execute-api.us-east-1.amazonaws.com\/Prod\/",
+    "libraries": {
+        "include": [],
+        "defaultLibraryKey": "g2586230",
+        "includeMyLibrary": true,
+        "includeUserGroups": true
+    },
+    "userId": 2166467,
+    "userSlug": "oscar_seip",
+    "apiKey": "ZfC8luAv9FyckAyKE7eNGRy1",
+    "loggedInUser": {
+        "userID": "2166467",
+        "slug": "oscar_seip",
+        "profileThumbnail": "https:\/\/s3.amazonaws.com\/zotero.org\/images\/settings\/profile\/2166467_200px.png"
+    }
+}		</script>
+		<script type="application/json" id="zotero-web-library-menu-config">
+			{
+    "desktop": [
+        {
+            "label": "Web Library",
+            "href": "\/mylibrary",
+            "active": true
+        },
+        {
+            "label": "Groups",
+            "href": "\/groups"
+        },
+        {
+            "label": "Documentation",
+            "href": "\/support"
+        },
+        {
+            "label": "Forums",
+            "href": "https:\/\/forums.zotero.org"
+        },
+        {
+            "label": "Get Involved",
+            "href": "\/getinvolved"
+        },
+        {
+            "label": "Oscar_Seip",
+            "dropdown": true,
+            "entries": [
+                {
+                    "label": "My Profile",
+                    "href": "\/oscar_seip"
+                },
+                {
+                    "separator": true
+                },
+                {
+                    "label": "Inbox",
+                    "href": "https:\/\/forums.zotero.org\/messages\/inbox"
+                },
+                {
+                    "separator": true
+                },
+                {
+                    "label": "Settings",
+                    "href": "\/settings"
+                },
+                {
+                    "label": "Use Old Web Library",
+                    "href": "?usenewlibrary=0"
+                },
+                {
+                    "label": "Logout",
+                    "href": "\/user\/logout"
+                }
+            ]
+        },
+        {
+            "label": "Upgrade Storage",
+            "href": "\/settings\/storage?ref=usb",
+            "className": "offscreen"
+        },
+        {
+            "label": "Upgrade Storage",
+            "href": "\/settings\/storage?ref=usb",
+            "className": "btn btn-secondary hidden-md-down upgrade-storage",
+            "position": "right",
+            "aria-hidden": "true"
+        }
+    ],
+    "mobile": [
+        {
+            "label": "Web Library",
+            "href": "\/mylibrary",
+            "active": true
+        },
+        {
+            "label": "Groups",
+            "href": "\/groups"
+        },
+        {
+            "label": "Documentation",
+            "href": "\/support"
+        },
+        {
+            "label": "Forums",
+            "href": "https:\/\/forums.zotero.org"
+        },
+        {
+            "label": "Get Involved",
+            "href": "\/getinvolved"
+        },
+        {
+            "label": "Oscar_Seip",
+            "href": "\/oscar_seip",
+            "className": "separated"
+        },
+        {
+            "label": "Inbox",
+            "href": "https:\/\/forums.zotero.org\/messages\/inbox",
+            "className": "separated"
+        },
+        {
+            "label": "Settings",
+            "href": "\/settings"
+        },
+        {
+            "label": "Use Old Web Library",
+            "href": "?usenewlibrary=0"
+        },
+        {
+            "label": "Logout",
+            "href": "\/user\/logout"
+        },
+        {
+            "label": "Upgrade Storage",
+            "href": "\/settings\/storage?ref=usb",
+            "className": "separated"
+        }
+    ]
+}		</script>
+		<script type="text/javascript" src="/static/web-library/zotero-web-library.1602610849.js"></script>	</body>
 </html>
-	
