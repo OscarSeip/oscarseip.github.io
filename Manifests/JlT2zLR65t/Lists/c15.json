@@ -1,0 +1,42 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "@id" : "http://0.0.0.0:8888/annotation/1602681934700",
+    "@type" : "oa:Annotation",
+    "dcterms:created" : "2020-10-14T15:25:34",
+    "dcterms:modified" : "2020-10-14T15:25:34",
+    "resource" : [ {
+      "@type" : "dctypes:Text",
+      "http://dev.llgc.org.uk/sas/full_text" : "Le Theatre des bons engins, auquel sont contenus cent Emblemes.",
+      "format" : "text/html",
+      "chars" : "<p>Le Theatre des bons engins, auquel sont contenus cent Emblemes.</p>"
+    }, {
+      "@type" : "oa:Tag",
+      "http://dev.llgc.org.uk/sas/full_text" : "Title",
+      "chars" : "Title"
+    } ],
+    "on" : [ {
+      "@type" : "oa:SpecificResource",
+      "within" : {
+        "@id" : "https://iiifman.lib.virginia.edu/pid/uva-lib:830320",
+        "@type" : "sc:Manifest"
+      },
+      "selector" : {
+        "@type" : "oa:Choice",
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=543,1084,1300,896"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M542.98142,1084.26817h650.11147v0h650.11147v448.09208v448.09208h-650.11147h-650.11147v-448.09208z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_3330f6c6-82f6-463c-874f-668fa1ddd5bc\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        }
+      },
+      "full" : "https://iiif.lib.virginia.edu/iiif/dl/uva-lib:830320/canvas/c15"
+    } ],
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "@context" : "http://iiif.io/api/presentation/2/context.json"
+  } ],
+  "@id" : "http://0.0.0.0:8888/annotation/list/03b23e53fb74e93df578f8317fd2d972.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
