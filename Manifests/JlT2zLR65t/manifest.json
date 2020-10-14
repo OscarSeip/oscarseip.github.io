@@ -435,9 +435,18 @@
                         }
                      },
                      "on":"https://iiif.lib.virginia.edu/iiif/dl/uva-lib:830320/canvas/c15"
-                  }
-               ]
-            },{
+                  },
+               ],
+
+            "otherContent": [
+            {
+              "@id": "",
+              "@type": "sc:AnnotationList"
+            }]
+            
+            },
+
+            {
                "@id":"https://iiif.lib.virginia.edu/iiif/dl/uva-lib:830320/canvas/c16",
                "@type":"sc:Canvas",
                "label":"Privilege page 1",
