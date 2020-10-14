@@ -440,7 +440,7 @@
 
             "otherContent": [
             {
-              "@id": "",
+              "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/JlT2zLR65t/lists/c15.json",
               "@type": "sc:AnnotationList"
             }]
 
