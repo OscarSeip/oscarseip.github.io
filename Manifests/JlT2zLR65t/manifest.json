@@ -38,13 +38,7 @@
                      },
                      "on":"https://iiif.lib.virginia.edu/iiif/dl/uva-lib:830320/canvas/c0"
                   }
-               ],
-               "otherContent": [
-            {
-              "@type": "sc:AnnotationList",
-              "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/Manifests/JlT2zLR65t/lists/c15.json"
-
-            }],
+               ]
             },{
                "@id":"https://iiif.lib.virginia.edu/iiif/dl/uva-lib:830320/canvas/c1",
                "@type":"sc:Canvas",
