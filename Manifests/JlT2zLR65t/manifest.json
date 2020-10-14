@@ -36,14 +36,8 @@
                            "profile":"http://iiif.io/api/image/2/level1.json"
                         }
                      },
-               "otherContent": [
-                  {
-                     "@type": "sc:AnnotationList",
-                     "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/JlT2zLR65t/Lists/c15.json"
-
-            }],
                      "on":"https://iiif.lib.virginia.edu/iiif/dl/uva-lib:830320/canvas/c0"
-                  },
+                  }
                ]
             },{
                "@id":"https://iiif.lib.virginia.edu/iiif/dl/uva-lib:830320/canvas/c1",
