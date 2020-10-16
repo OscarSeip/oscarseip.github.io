@@ -2,7 +2,7 @@
     "@context": "https://iiif.io/api/presentation/2/context.json",
     "@id": "https://plume.epfl.ch/iiif/1449/manifest",
     "@type": "sc:Manifest",
-    "label": "Theatrum machinarum novum",
+    "label": "B\u00f6ckler, Theatrum machinarum novum (1662)",
     "metadata": [
         {
             "label": "Number",
