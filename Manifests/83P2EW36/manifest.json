@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10166503/manifest",
-  "label": "Garzoni, Il theatro de vari e diversi cervelli mondani (1583; digitisation of 1585 edition)",
+  "label": "Garzoni, Il theatro de vari e diversi cervelli mondani (1583; digitisation of 1585)",
   "metadata": [
     {
       "label": [

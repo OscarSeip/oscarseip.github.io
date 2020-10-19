@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10005769/manifest",
-  "label": "Verstegan, Theatrum Crudelitatum Haereticorum nostri temporis, 1587 [digitisation of 1604]",
+  "label": "Verstegan, Theatrum Crudelitatum Haereticorum nostri temporis, (1587; digitisation of 1604)",
   "metadata": [
     {
       "label": [

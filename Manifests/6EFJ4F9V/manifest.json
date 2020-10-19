@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://wellcomelibrary.org/iiif/b30334615/manifest",
   "@type": "sc:Manifest",
-  "label": "Beard, The theatre of Gods judgements (1597; digitisation from 1631)",
+  "label": "Beard, The theatre of Gods judgements (1597; digitisation of 1631)",
   "metadata": [
     {
       "label": "Title",
