@@ -1,0 +1,4374 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/manifest/",
+  "@type": "sc:Manifest",
+  "label": "Helwig, Theatrum Historicum: Sive Chronologiae Systema Novum (1609; digitisation of 1628)",
+  "metadata": [
+    {
+      "label": [
+        {
+          "@value": "EPN (Digitalisat)",
+          "@language": "de"
+        },
+        {
+          "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+          "@language": "en"
+        },
+        {
+          "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+          "@language": "es"
+        }
+      ],
+      "value": [
+        {
+          "@value": "895211068",
+          "@language": "de"
+        },
+        {
+          "@value": "895211068",
+          "@language": "en"
+        },
+        {
+          "@value": "895211068",
+          "@language": "es"
+        }
+      ]
+    },
+    {
+      "label": [
+        {
+          "@value": "Ersteller",
+          "@language": "de"
+        },
+        {
+          "@value": "Creator",
+          "@language": "en"
+        },
+        {
+          "@value": "Creador",
+          "@language": "es"
+        }
+      ],
+      "value": [
+        {
+          "@value": "Helwig, Christoph",
+          "@language": "de"
+        },
+        {
+          "@value": "Helwig, Christoph",
+          "@language": "en"
+        },
+        {
+          "@value": "Helwig, Christoph",
+          "@language": "es"
+        }
+      ]
+    },
+    {
+      "label": [
+        {
+          "@value": "Signatur",
+          "@language": "de"
+        },
+        {
+          "@value": "Shelfmark",
+          "@language": "en"
+        },
+        {
+          "@value": "Signatura",
+          "@language": "es"
+        }
+      ],
+      "value": [
+        {
+          "@value": "8, 1 : 38",
+          "@language": "de"
+        },
+        {
+          "@value": "8, 1 : 38",
+          "@language": "en"
+        },
+        {
+          "@value": "8, 1 : 38",
+          "@language": "es"
+        }
+      ]
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0005.tif/full/!400,400/0/default.jpg",
+    "@type": "dcTypes:Image",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0005.tif",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "attribution": [
+    {
+      "@value": "<a href=\"https://www.klassik-stiftung.de/index.php?id=37\">Herzogin Anna Amalia Bibliothek, Weimar</a>",
+      "@language": "de"
+    },
+    {
+      "@value": "<a href=\"https://www.klassik-stiftung.de/index.php?id=37\">Herzogin Anna Amalia Bibliothek, Weimar</a>",
+      "@language": "en"
+    },
+    {
+      "@value": "Goobi viewer",
+      "@language": "es"
+    }
+  ],
+  "logo": {
+    "@id": "https://haab-digital.klassik-stiftung.de/viewer/resources/themes/haab2/images/dfgviewer_haab.jpg",
+    "@type": "dcTypes:Image"
+  },
+  "rendering": [
+    {
+      "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/5/LOG_0000/",
+      "label": "goobi viewer",
+      "format": "text/html"
+    },
+    {
+      "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/pdf/mets/895211068.xml/Theatrum_Historicum_Sive_Chronologiae_Systema_Novum_Aequalibus_Centuriarum_Et_Decadum_Intervallis.pdf?watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+      "label": "PDF",
+      "format": "application/pdf"
+    }
+  ],
+  "service": {
+    "@context": "http://iiif.io/api/search/1/context.json",
+    "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/manifest/search",
+    "profile": "http://iiif.io/api/search/1/search",
+    "service": {
+      "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/manifest/autocomplete",
+      "profile": "http://iiif.io/api/search/1/autocomplete"
+    },
+    "label": [
+      {
+        "@value": "Annotationen innerhalb des Manifests durchsuchen",
+        "@language": "de"
+      },
+      {
+        "@value": "Search annotations within the manifest",
+        "@language": "en"
+      }
+    ]
+  },
+  "seeAlso": {
+    "@id": "https://haab-digital.klassik-stiftung.de/viewer/metsresolver?id=895211068",
+    "label": "METS/MODS",
+    "format": "text/xml"
+  },
+  "sequences": [
+    {
+      "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+      "@type": "sc:Sequence",
+      "viewingHint": "paged",
+      "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/manifest/",
+      "canvases": [
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/5/",
+          "@type": "sc:Canvas",
+          "label": "[1]",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0005.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/5/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0005.tif/full/max/0/895211068_5.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/5/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0005.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0005.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/5/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/6/",
+          "@type": "sc:Canvas",
+          "label": "[1]",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0006.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/6/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0006.tif/full/max/0/895211068_6.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/6/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0006.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0006.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/6/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/7/",
+          "@type": "sc:Canvas",
+          "label": "[2]",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0007.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/7/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0007.tif/full/max/0/895211068_7.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/7/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0007.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0007.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/7/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/8/",
+          "@type": "sc:Canvas",
+          "label": "[2]",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0008.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/8/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0008.tif/full/max/0/895211068_8.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/8/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0008.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0008.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/8/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/9/",
+          "@type": "sc:Canvas",
+          "label": "[3]",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0009.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/9/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0009.tif/full/max/0/895211068_9.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/9/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0009.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0009.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/9/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/10/",
+          "@type": "sc:Canvas",
+          "label": "[3]",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0010.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/10/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0010.tif/full/max/0/895211068_10.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/10/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0010.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0010.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/10/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/11/",
+          "@type": "sc:Canvas",
+          "label": "[4]",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0011.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/11/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0011.tif/full/max/0/895211068_11.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/11/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0011.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0011.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/11/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/12/",
+          "@type": "sc:Canvas",
+          "label": "[4]",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0012.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/12/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0012.tif/full/max/0/895211068_12.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/12/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0012.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0012.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/12/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/13/",
+          "@type": "sc:Canvas",
+          "label": "I",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0013.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/13/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0013.tif/full/max/0/895211068_13.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/13/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0013.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0013.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/13/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/14/",
+          "@type": "sc:Canvas",
+          "label": "II",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0014.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/14/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0014.tif/full/max/0/895211068_14.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/14/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0014.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0014.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/14/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/15/",
+          "@type": "sc:Canvas",
+          "label": "III",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0015.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/15/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0015.tif/full/max/0/895211068_15.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/15/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0015.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0015.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/15/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/16/",
+          "@type": "sc:Canvas",
+          "label": "IV",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0016.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/16/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0016.tif/full/max/0/895211068_16.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/16/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0016.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0016.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/16/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/17/",
+          "@type": "sc:Canvas",
+          "label": "V",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0017.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/17/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0017.tif/full/max/0/895211068_17.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/17/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0017.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0017.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/17/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/18/",
+          "@type": "sc:Canvas",
+          "label": "VI",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0018.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/18/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0018.tif/full/max/0/895211068_18.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/18/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0018.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0018.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/18/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/19/",
+          "@type": "sc:Canvas",
+          "label": "VII",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0019.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/19/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0019.tif/full/max/0/895211068_19.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/19/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0019.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0019.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/19/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/20/",
+          "@type": "sc:Canvas",
+          "label": "VIII",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0020.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/20/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0020.tif/full/max/0/895211068_20.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/20/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0020.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0020.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/20/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/21/",
+          "@type": "sc:Canvas",
+          "label": "IX",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0021.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/21/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0021.tif/full/max/0/895211068_21.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/21/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0021.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0021.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/21/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/22/",
+          "@type": "sc:Canvas",
+          "label": "X",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0022.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/22/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0022.tif/full/max/0/895211068_22.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/22/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0022.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0022.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/22/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/23/",
+          "@type": "sc:Canvas",
+          "label": "XI",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0023.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/23/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0023.tif/full/max/0/895211068_23.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/23/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0023.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0023.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/23/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/24/",
+          "@type": "sc:Canvas",
+          "label": "XII",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0024.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/24/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0024.tif/full/max/0/895211068_24.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/24/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0024.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0024.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/24/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/25/",
+          "@type": "sc:Canvas",
+          "label": "XIII",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0025.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/25/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0025.tif/full/max/0/895211068_25.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/25/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0025.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0025.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/25/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/26/",
+          "@type": "sc:Canvas",
+          "label": "XIV",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0026.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/26/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0026.tif/full/max/0/895211068_26.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/26/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0026.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0026.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/26/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/27/",
+          "@type": "sc:Canvas",
+          "label": "XV",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0027.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/27/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0027.tif/full/max/0/895211068_27.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/27/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0027.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0027.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/27/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/28/",
+          "@type": "sc:Canvas",
+          "label": "XVI",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0028.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/28/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0028.tif/full/max/0/895211068_28.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/28/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0028.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0028.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/28/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/29/",
+          "@type": "sc:Canvas",
+          "label": "XVII",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0029.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/29/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0029.tif/full/max/0/895211068_29.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/29/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0029.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0029.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/29/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/30/",
+          "@type": "sc:Canvas",
+          "label": "XVIII",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0030.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/30/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0030.tif/full/max/0/895211068_30.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/30/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0030.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0030.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/30/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/31/",
+          "@type": "sc:Canvas",
+          "label": "XIX",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0031.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/31/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0031.tif/full/max/0/895211068_31.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/31/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0031.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0031.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/31/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/32/",
+          "@type": "sc:Canvas",
+          "label": "XX",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0032.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/32/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0032.tif/full/max/0/895211068_32.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/32/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0032.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0032.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/32/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/33/",
+          "@type": "sc:Canvas",
+          "label": "XXI",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0033.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/33/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0033.tif/full/max/0/895211068_33.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/33/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0033.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0033.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/33/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/34/",
+          "@type": "sc:Canvas",
+          "label": "XXII",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0034.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/34/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0034.tif/full/max/0/895211068_34.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/34/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0034.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0034.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/34/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/35/",
+          "@type": "sc:Canvas",
+          "label": "XXIII",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0035.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/35/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0035.tif/full/max/0/895211068_35.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/35/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0035.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0035.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/35/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/36/",
+          "@type": "sc:Canvas",
+          "label": "XXIV",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0036.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/36/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0036.tif/full/max/0/895211068_36.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/36/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0036.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0036.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/36/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/37/",
+          "@type": "sc:Canvas",
+          "label": "XXV",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0037.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/37/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0037.tif/full/max/0/895211068_37.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/37/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0037.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0037.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/37/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/38/",
+          "@type": "sc:Canvas",
+          "label": "XXVI",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0038.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/38/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0038.tif/full/max/0/895211068_38.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/38/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0038.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0038.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/38/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/39/",
+          "@type": "sc:Canvas",
+          "label": "XXVII",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0039.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/39/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0039.tif/full/max/0/895211068_39.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/39/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0039.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0039.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/39/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/40/",
+          "@type": "sc:Canvas",
+          "label": "XXVIII",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0040.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/40/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0040.tif/full/max/0/895211068_40.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/40/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0040.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0040.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/40/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/41/",
+          "@type": "sc:Canvas",
+          "label": "XXIX",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0041.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/41/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0041.tif/full/max/0/895211068_41.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/41/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0041.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0041.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/41/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/42/",
+          "@type": "sc:Canvas",
+          "label": "XXX",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0042.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/42/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0042.tif/full/max/0/895211068_42.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/42/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0042.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0042.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/42/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/43/",
+          "@type": "sc:Canvas",
+          "label": "XXXI",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0043.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/43/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0043.tif/full/max/0/895211068_43.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/43/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0043.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0043.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/43/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/44/",
+          "@type": "sc:Canvas",
+          "label": "XXXII",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0044.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/44/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0044.tif/full/max/0/895211068_44.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/44/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0044.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0044.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/44/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/45/",
+          "@type": "sc:Canvas",
+          "label": "XXXIII",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0045.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/45/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0045.tif/full/max/0/895211068_45.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/45/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0045.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0045.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/45/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/46/",
+          "@type": "sc:Canvas",
+          "label": "XXXIV",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0046.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/46/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0046.tif/full/max/0/895211068_46.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/46/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0046.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0046.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/46/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/47/",
+          "@type": "sc:Canvas",
+          "label": "XXXV",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0047.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/47/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0047.tif/full/max/0/895211068_47.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/47/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0047.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0047.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/47/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/48/",
+          "@type": "sc:Canvas",
+          "label": "XXXVI",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0048.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/48/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0048.tif/full/max/0/895211068_48.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/48/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0048.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0048.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/48/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/49/",
+          "@type": "sc:Canvas",
+          "label": "XXXVII",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0049.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/49/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0049.tif/full/max/0/895211068_49.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/49/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0049.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0049.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/49/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/50/",
+          "@type": "sc:Canvas",
+          "label": "XXXVIII",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0050.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/50/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0050.tif/full/max/0/895211068_50.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/50/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0050.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0050.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/50/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/51/",
+          "@type": "sc:Canvas",
+          "label": "XXXIX",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0051.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/51/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0051.tif/full/max/0/895211068_51.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/51/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0051.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0051.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/51/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/52/",
+          "@type": "sc:Canvas",
+          "label": "XL",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0052.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/52/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0052.tif/full/max/0/895211068_52.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/52/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0052.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0052.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/52/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/53/",
+          "@type": "sc:Canvas",
+          "label": "XLI",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0053.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/53/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0053.tif/full/max/0/895211068_53.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/53/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0053.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0053.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/53/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/54/",
+          "@type": "sc:Canvas",
+          "label": "XLII",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0054.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/54/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0054.tif/full/max/0/895211068_54.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/54/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0054.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0054.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/54/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/55/",
+          "@type": "sc:Canvas",
+          "label": "XLIII",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0055.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/55/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0055.tif/full/max/0/895211068_55.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/55/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0055.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0055.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/55/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/56/",
+          "@type": "sc:Canvas",
+          "label": " - ",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0056.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/56/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0056.tif/full/max/0/895211068_56.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/56/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0056.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0056.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/56/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/57/",
+          "@type": "sc:Canvas",
+          "label": "[1]",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0057.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/57/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0057.tif/full/max/0/895211068_57.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/57/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0057.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0057.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/57/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/58/",
+          "@type": "sc:Canvas",
+          "label": "[1]",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0058.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/58/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0058.tif/full/max/0/895211068_58.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/58/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0058.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0058.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/58/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/59/",
+          "@type": "sc:Canvas",
+          "label": "[2]",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0059.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/59/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0059.tif/full/max/0/895211068_59.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/59/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0059.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0059.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/59/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/60/",
+          "@type": "sc:Canvas",
+          "label": "[2]",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0060.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/60/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0060.tif/full/max/0/895211068_60.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/60/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0060.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0060.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/60/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/61/",
+          "@type": "sc:Canvas",
+          "label": "[3]",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0061.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/61/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0061.tif/full/max/0/895211068_61.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/61/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0061.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0061.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/61/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/62/",
+          "@type": "sc:Canvas",
+          "label": "[3]",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0062.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/62/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0062.tif/full/max/0/895211068_62.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/62/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0062.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0062.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/62/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/63/",
+          "@type": "sc:Canvas",
+          "label": "[4]",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0063.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/63/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0063.tif/full/max/0/895211068_63.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 3425,
+          "height": 4205,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/63/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0063.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 3425,
+                "height": 4205,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0063.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/63/"
+            }
+          ]
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/64/",
+          "@type": "sc:Canvas",
+          "label": " - ",
+          "thumbnail": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0064.tif/full/!400,400/0/default.jpg",
+            "@type": "dcTypes:Image"
+          },
+          "rendering": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/image/895211068/64/",
+            "label": "goobi viewer",
+            "format": "text/html"
+          },
+          "seeAlso": {
+            "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0064.tif/full/max/0/895211068_64.pdf?metsFile=file:///opt/digiverso/viewer/data/1/indexed_mets/895211068.xml&divID=LOG_0000&watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+            "@type": "dcTypes:SOFTWARE",
+            "label": [
+              {
+                "@value": "PDF",
+                "@language": "de"
+              },
+              {
+                "@value": "PDF",
+                "@language": "en"
+              },
+              {
+                "@value": "PDF",
+                "@language": "es"
+              }
+            ],
+            "format": "application/pdf"
+          },
+          "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/sequence/basic/",
+          "width": 4487,
+          "height": 6515,
+          "images": [
+            {
+              "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/64/image/1/",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0064.tif/full/!400,400/0/default.jpg",
+                "@type": "dcTypes:Image",
+                "width": 4487,
+                "height": 6515,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0064.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/64/"
+            }
+          ]
+        }
+      ],
+      "viewingDirection": "left-to-right"
+    }
+  ],
+  "structures": [
+    {
+      "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0000/",
+      "@type": "sc:Range",
+      "label": [
+        {
+          "@value": "CONTENT",
+          "@language": "de"
+        },
+        {
+          "@value": "CONTENT",
+          "@language": "en"
+        },
+        {
+          "@value": "CONTENT",
+          "@language": "es"
+        }
+      ],
+      "viewingHint": "top",
+      "ranges": [
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0001/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0002/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0003/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0004/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0005/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0006/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0007/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0008/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0009/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0010/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0011/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0012/"
+      ]
+    },
+    {
+      "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0001/",
+      "@type": "sc:Range",
+      "label": [
+        {
+          "@value": "Einband",
+          "@language": "de"
+        },
+        {
+          "@value": "Cover",
+          "@language": "en"
+        },
+        {
+          "@value": "Cubierta",
+          "@language": "es"
+        }
+      ],
+      "metadata": [
+        {
+          "label": [
+            {
+              "@value": "EPN (Digitalisat)",
+              "@language": "de"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "en"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "es"
+            }
+          ],
+          "value": [
+            {
+              "@value": "895211068",
+              "@language": "de"
+            },
+            {
+              "@value": "895211068",
+              "@language": "en"
+            },
+            {
+              "@value": "895211068",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "thumbnail": {
+        "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0064.tif/full/!400,400/0/default.jpg",
+        "@type": "dcTypes:Image",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0064.tif",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "rendering": [
+        {
+          "@id": "image/895211068/64/LOG_0001/",
+          "label": "goobi viewer",
+          "format": "text/html"
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/pdf/mets/895211068.xml/LOG_0001/Einband.pdf?watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+          "label": "PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0000/",
+      "canvases": [
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/64/"
+      ]
+    },
+    {
+      "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0002/",
+      "@type": "sc:Range",
+      "label": "Titelseite",
+      "metadata": [
+        {
+          "label": [
+            {
+              "@value": "EPN (Digitalisat)",
+              "@language": "de"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "en"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "es"
+            }
+          ],
+          "value": [
+            {
+              "@value": "895211068",
+              "@language": "de"
+            },
+            {
+              "@value": "895211068",
+              "@language": "en"
+            },
+            {
+              "@value": "895211068",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "thumbnail": {
+        "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0005.tif/full/!400,400/0/default.jpg",
+        "@type": "dcTypes:Image",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0005.tif",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "rendering": [
+        {
+          "@id": "image/895211068/5/LOG_0002/",
+          "label": "goobi viewer",
+          "format": "text/html"
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/pdf/mets/895211068.xml/LOG_0002/Titelseite.pdf?watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+          "label": "PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0000/",
+      "canvases": [
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/5/"
+      ]
+    },
+    {
+      "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0003/",
+      "@type": "sc:Range",
+      "label": "Portrait von Christophor Helvicus",
+      "metadata": [
+        {
+          "label": [
+            {
+              "@value": "EPN (Digitalisat)",
+              "@language": "de"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "en"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "es"
+            }
+          ],
+          "value": [
+            {
+              "@value": "895211068",
+              "@language": "de"
+            },
+            {
+              "@value": "895211068",
+              "@language": "en"
+            },
+            {
+              "@value": "895211068",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "thumbnail": {
+        "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0006.tif/full/!400,400/0/default.jpg",
+        "@type": "dcTypes:Image",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0006.tif",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "rendering": [
+        {
+          "@id": "image/895211068/6/LOG_0003/",
+          "label": "goobi viewer",
+          "format": "text/html"
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/pdf/mets/895211068.xml/LOG_0003/Portrait_von_Christophor_Helvicus.pdf?watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+          "label": "PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0000/",
+      "canvases": [
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/6/"
+      ]
+    },
+    {
+      "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0004/",
+      "@type": "sc:Range",
+      "label": "Lectori Benevolo",
+      "metadata": [
+        {
+          "label": [
+            {
+              "@value": "EPN (Digitalisat)",
+              "@language": "de"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "en"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "es"
+            }
+          ],
+          "value": [
+            {
+              "@value": "895211068",
+              "@language": "de"
+            },
+            {
+              "@value": "895211068",
+              "@language": "en"
+            },
+            {
+              "@value": "895211068",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "thumbnail": {
+        "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0007.tif/full/!400,400/0/default.jpg",
+        "@type": "dcTypes:Image",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0007.tif",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "rendering": [
+        {
+          "@id": "image/895211068/7/LOG_0004/",
+          "label": "goobi viewer",
+          "format": "text/html"
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/pdf/mets/895211068.xml/LOG_0004/Lectori_Benevolo.pdf?watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+          "label": "PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0000/",
+      "canvases": [
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/7/"
+      ]
+    },
+    {
+      "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0005/",
+      "@type": "sc:Range",
+      "label": "In Opera Historica, ... Dn. Christopori Helvici ...",
+      "metadata": [
+        {
+          "label": [
+            {
+              "@value": "EPN (Digitalisat)",
+              "@language": "de"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "en"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "es"
+            }
+          ],
+          "value": [
+            {
+              "@value": "895211068",
+              "@language": "de"
+            },
+            {
+              "@value": "895211068",
+              "@language": "en"
+            },
+            {
+              "@value": "895211068",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "thumbnail": {
+        "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0008.tif/full/!400,400/0/default.jpg",
+        "@type": "dcTypes:Image",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0008.tif",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "rendering": [
+        {
+          "@id": "image/895211068/8/LOG_0005/",
+          "label": "goobi viewer",
+          "format": "text/html"
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/pdf/mets/895211068.xml/LOG_0005/In_Opera_Historica__Dn_Christopori_Helvici_.pdf?watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+          "label": "PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0000/",
+      "canvases": [
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/8/"
+      ]
+    },
+    {
+      "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0006/",
+      "@type": "sc:Range",
+      "label": "Prologomena",
+      "metadata": [
+        {
+          "label": [
+            {
+              "@value": "EPN (Digitalisat)",
+              "@language": "de"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "en"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "es"
+            }
+          ],
+          "value": [
+            {
+              "@value": "895211068",
+              "@language": "de"
+            },
+            {
+              "@value": "895211068",
+              "@language": "en"
+            },
+            {
+              "@value": "895211068",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "thumbnail": {
+        "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0009.tif/full/!400,400/0/default.jpg",
+        "@type": "dcTypes:Image",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0009.tif",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "rendering": [
+        {
+          "@id": "image/895211068/9/LOG_0006/",
+          "label": "goobi viewer",
+          "format": "text/html"
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/pdf/mets/895211068.xml/LOG_0006/Prologomena.pdf?watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+          "label": "PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0000/",
+      "canvases": [
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/9/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/10/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/11/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/12/"
+      ]
+    },
+    {
+      "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0007/",
+      "@type": "sc:Range",
+      "label": "Chronologia Kata ... Patriarcharum Aetates",
+      "metadata": [
+        {
+          "label": [
+            {
+              "@value": "EPN (Digitalisat)",
+              "@language": "de"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "en"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "es"
+            }
+          ],
+          "value": [
+            {
+              "@value": "895211068",
+              "@language": "de"
+            },
+            {
+              "@value": "895211068",
+              "@language": "en"
+            },
+            {
+              "@value": "895211068",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "thumbnail": {
+        "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0013.tif/full/!400,400/0/default.jpg",
+        "@type": "dcTypes:Image",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0013.tif",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "rendering": [
+        {
+          "@id": "image/895211068/13/LOG_0007/",
+          "label": "goobi viewer",
+          "format": "text/html"
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/pdf/mets/895211068.xml/LOG_0007/Chronologia_Kata__Patriarcharum_Aetates.pdf?watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+          "label": "PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0000/",
+      "canvases": [
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/13/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/14/"
+      ]
+    },
+    {
+      "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0008/",
+      "@type": "sc:Range",
+      "label": "IV. Monarchia Assyriorum",
+      "metadata": [
+        {
+          "label": [
+            {
+              "@value": "EPN (Digitalisat)",
+              "@language": "de"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "en"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "es"
+            }
+          ],
+          "value": [
+            {
+              "@value": "895211068",
+              "@language": "de"
+            },
+            {
+              "@value": "895211068",
+              "@language": "en"
+            },
+            {
+              "@value": "895211068",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "thumbnail": {
+        "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0014.tif/full/!400,400/0/default.jpg",
+        "@type": "dcTypes:Image",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0014.tif",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "rendering": [
+        {
+          "@id": "image/895211068/14/LOG_0008/",
+          "label": "goobi viewer",
+          "format": "text/html"
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/pdf/mets/895211068.xml/LOG_0008/IV_Monarchia_Assyriorum.pdf?watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+          "label": "PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0000/",
+      "canvases": [
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/14/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/15/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/16/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/17/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/18/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/19/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/20/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/21/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/22/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/23/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/24/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/25/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/26/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/27/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/28/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/29/"
+      ]
+    },
+    {
+      "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0009/",
+      "@type": "sc:Range",
+      "label": "II. Monarchia Persarum",
+      "metadata": [
+        {
+          "label": [
+            {
+              "@value": "EPN (Digitalisat)",
+              "@language": "de"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "en"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "es"
+            }
+          ],
+          "value": [
+            {
+              "@value": "895211068",
+              "@language": "de"
+            },
+            {
+              "@value": "895211068",
+              "@language": "en"
+            },
+            {
+              "@value": "895211068",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "thumbnail": {
+        "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0029.tif/full/!400,400/0/default.jpg",
+        "@type": "dcTypes:Image",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0029.tif",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "rendering": [
+        {
+          "@id": "image/895211068/29/LOG_0009/",
+          "label": "goobi viewer",
+          "format": "text/html"
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/pdf/mets/895211068.xml/LOG_0009/II_Monarchia_Persarum.pdf?watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+          "label": "PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0000/",
+      "canvases": [
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/29/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/30/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/31/"
+      ]
+    },
+    {
+      "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0010/",
+      "@type": "sc:Range",
+      "label": "III. Monarch Graecor.",
+      "metadata": [
+        {
+          "label": [
+            {
+              "@value": "EPN (Digitalisat)",
+              "@language": "de"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "en"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "es"
+            }
+          ],
+          "value": [
+            {
+              "@value": "895211068",
+              "@language": "de"
+            },
+            {
+              "@value": "895211068",
+              "@language": "en"
+            },
+            {
+              "@value": "895211068",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "thumbnail": {
+        "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0031.tif/full/!400,400/0/default.jpg",
+        "@type": "dcTypes:Image",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0031.tif",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "rendering": [
+        {
+          "@id": "image/895211068/31/LOG_0010/",
+          "label": "goobi viewer",
+          "format": "text/html"
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/pdf/mets/895211068.xml/LOG_0010/III_Monarch_Graecor.pdf?watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+          "label": "PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0000/",
+      "canvases": [
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/31/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/32/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/33/"
+      ]
+    },
+    {
+      "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0011/",
+      "@type": "sc:Range",
+      "label": "IV. Monarchia Romana",
+      "metadata": [
+        {
+          "label": [
+            {
+              "@value": "EPN (Digitalisat)",
+              "@language": "de"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "en"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "es"
+            }
+          ],
+          "value": [
+            {
+              "@value": "895211068",
+              "@language": "de"
+            },
+            {
+              "@value": "895211068",
+              "@language": "en"
+            },
+            {
+              "@value": "895211068",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "thumbnail": {
+        "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0034.tif/full/!400,400/0/default.jpg",
+        "@type": "dcTypes:Image",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0034.tif",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "rendering": [
+        {
+          "@id": "image/895211068/34/LOG_0011/",
+          "label": "goobi viewer",
+          "format": "text/html"
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/pdf/mets/895211068.xml/LOG_0011/IV_Monarchia_Romana.pdf?watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+          "label": "PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0000/",
+      "canvases": [
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/34/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/35/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/36/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/37/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/38/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/39/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/40/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/41/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/42/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/43/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/44/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/45/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/46/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/47/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/48/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/49/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/50/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/51/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/52/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/53/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/54/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/55/"
+      ]
+    },
+    {
+      "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0012/",
+      "@type": "sc:Range",
+      "label": "Index in Cronologiam Christophori Helvici",
+      "metadata": [
+        {
+          "label": [
+            {
+              "@value": "EPN (Digitalisat)",
+              "@language": "de"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "en"
+            },
+            {
+              "@value": "IIIF_LABEL_PI_TOPSTRUCT",
+              "@language": "es"
+            }
+          ],
+          "value": [
+            {
+              "@value": "895211068",
+              "@language": "de"
+            },
+            {
+              "@value": "895211068",
+              "@language": "en"
+            },
+            {
+              "@value": "895211068",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "thumbnail": {
+        "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0057.tif/full/!400,400/0/default.jpg",
+        "@type": "dcTypes:Image",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/image/895211068/EPN_231651872_0057.tif",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      },
+      "rendering": [
+        {
+          "@id": "image/895211068/57/LOG_0012/",
+          "label": "goobi viewer",
+          "format": "text/html"
+        },
+        {
+          "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/pdf/mets/895211068.xml/LOG_0012/Index_in_Cronologiam_Christophori_Helvici.pdf?watermarkText=Herzogin+Anna+Amalia+Bibliothek%2C+Klassik+Stiftung+Weimar",
+          "label": "PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "within": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/range/LOG_0000/",
+      "canvases": [
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/57/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/58/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/59/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/60/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/61/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/62/",
+        "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/895211068/canvas/63/"
+      ]
+    }
+  ]
+}
