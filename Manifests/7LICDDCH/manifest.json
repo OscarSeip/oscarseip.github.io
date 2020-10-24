@@ -741,7 +741,15 @@
                      },
                      "on":"https://iiif.lib.virginia.edu/iiif/dl/uva-lib:830320/canvas/c26"
                   }
-               ]
+               ],
+
+               "otherContent": [
+            {
+              "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/7LICDDCH/lists/c26.json",
+              "@type": "sc:AnnotationList"
+            }]
+
+
             },{
                "@id":"https://iiif.lib.virginia.edu/iiif/dl/uva-lib:830320/canvas/c27",
                "@type":"sc:Canvas",
@@ -773,7 +781,7 @@
 
                "otherContent": [
             {
-              "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/7LICDDCH/lists/c27.json",
+              "@id": "",
               "@type": "sc:AnnotationList"
             }]
 
