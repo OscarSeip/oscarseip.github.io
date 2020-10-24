@@ -1,4 +1,9 @@
 {
+  "startIndex" : 0,
+  "within" : {
+    "total" : "1",
+    "@type" : "sc:Layer"
+  },
   "@type" : "sc:AnnotationList",
   "resources" : [ {
     "@id" : "http://0.0.0.0:8888/annotation/1603531338009",
