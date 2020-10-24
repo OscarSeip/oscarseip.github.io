@@ -1,0 +1,50 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "@id" : "http://0.0.0.0:8888/annotation/1603531338009",
+    "@type" : "oa:Annotation",
+    "dcterms:created" : "2020-10-24T11:22:18",
+    "dcterms:modified" : "2020-10-24T11:22:18",
+    "resource" : [ {
+      "@type" : "dctypes:Text",
+      "http://dev.llgc.org.uk/sas/full_text" : "",
+      "format" : "text/html",
+      "chars" : ""
+    }, {
+      "@type" : "oa:Tag",
+      "http://dev.llgc.org.uk/sas/full_text" : "key",
+      "chars" : "key"
+    }, {
+      "@type" : "oa:Tag",
+      "http://dev.llgc.org.uk/sas/full_text" : "sun",
+      "chars" : "sun"
+    }, {
+      "@type" : "oa:Tag",
+      "http://dev.llgc.org.uk/sas/full_text" : "mirror",
+      "chars" : "mirror"
+    } ],
+    "on" : [ {
+      "@type" : "oa:SpecificResource",
+      "within" : {
+        "@id" : "https://iiif-manifest.internal.lib.virginia.edu/pid/uva-lib:830320",
+        "@type" : "sc:Manifest"
+      },
+      "selector" : {
+        "@type" : "oa:Choice",
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=961,1120,1145,1203"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M960.76029,1119.5814h572.57513v0h572.57513v601.33363v601.33363h-572.57513h-572.57513v-601.33363z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_b989f6b7-6e06-404d-abc3-54f68a0ea2a8\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        }
+      },
+      "full" : "https://iiif.lib.virginia.edu/iiif/dl/uva-lib:830320/canvas/c26"
+    } ],
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "@context" : "http://iiif.io/api/presentation/2/context.json"
+  } ],
+  "@id" : "http://0.0.0.0:8888/annotation/list/97b7202aed165edca6ab417e85e33c38.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}

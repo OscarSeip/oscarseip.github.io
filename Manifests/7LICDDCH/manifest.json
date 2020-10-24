@@ -6,7 +6,7 @@
    "label":"La Perrière, Le theatre des bons engins (1540)",
    "service": {
     "profile": "http://iiif.io/api/search/0/search",
-    "@id": "http://0.0.0.0:8888/search-api/3aff5b88a5fd5148cc0520ffd5fe1b16/search",
+    "@id": "http://0.0.0.0:8888/search-api/7eb491d05a76baed42e00b6c3752b33d/search",
     "@context": "http://iiif.io/api/search/0/context.json"},
    "metadata": [ {"label": "Call Number", "value": "Gordon 1540 .L33"}, {"label": "Author", "value": "La Perrière, Guillaume de, 1499-1565"}, {"label": "Format", "value": "Book"}, {"label": "Physical Description", "value": "[206] p. : ill. ; 18 cm. (8vo)"}, {"label": "Date", "value": "1539, 1540"} ],
    "license":"http://rightsstatements.org/vocab/NoC-US/1.0/",
@@ -769,7 +769,14 @@
                      },
                      "on":"https://iiif.lib.virginia.edu/iiif/dl/uva-lib:830320/canvas/c27"
                   }
-               ]
+               ],
+
+               "otherContent": [
+            {
+              "@id": "",
+              "@type": "sc:AnnotationList"
+            }]
+
             },{
                "@id":"https://iiif.lib.virginia.edu/iiif/dl/uva-lib:830320/canvas/c28",
                "@type":"sc:Canvas",
