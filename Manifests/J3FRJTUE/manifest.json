@@ -2085,7 +2085,7 @@
     }
   ],
   "thumbnail": {
-    "@id": "https://ia600104.us.archive.org/BookReader/BookReaderPreview.php?id=inscriptionesvel00quic&subPrefix=inscriptionesvel00quic&itemPath=/12/items/inscriptionesvel00quic&server=ia600104.us.archive.org&page=preview&"
+    "@id": "https://iiif.archivelab.org/iiif/inscriptionesvel00quic$3"
   },
   "viewingHint": "paged"
 }
