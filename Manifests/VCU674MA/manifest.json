@@ -1,7 +1,10 @@
 {
   "viewingHint": "paged",
-  "thumbnail": {
-    "@id": "https://content.wdl.org/iiif/4305,1,11/full/!1024,1024/0/default.jpg"},
+  "thumbnail": [
+    {
+    "@id": "https://content.wdl.org/iiif/4305,1,11/full/!1024,1024/0/default.jpg",
+    "type": "Image",
+    "format": "Image/jpeg"},],
   "attribution": "World Digital Library",
   "description": "A new type of book appeared in Europe in the late 16th century, representing a genre of literature known as the “theater of machines.” The first of the theaters was produced by Jacques Besson (circa 1540–73), a French Protestant, born in Grenoble, who worked primarily as a mathematics teacher until royal patronage came his way. In 1559, Besson published a book on extracting oils and waters from simple drugs. His second book, <em>Le Cosmolabe</em>, published in 1567, described an elaborate instrument that could be used for navigation, surveying, cartography, and astronomy. In 1569 King Charles IX appointed Besson “master of the King’s engines.” Before Besson, illustrations of machines had appeared, but they were mainly of current technology or provided limited descriptions of new inventions. Besson began work on a book of designs for a range of instruments and machines that he envisioned could be built. His book was published in 1571–72, with descriptions by Besson and 60 engravings made to Besson’s specifications by Jacques Androuet du Cerceau. The plates depicted measuring and drawing instruments, many later used to produce the original plans for the machines, as well as lathes, stone cutters, sawmills, horse carriages, barrels, dredges, pile drivers, grist mills, hauling machines, cranes, elevators, pumps, salvage machines, nautical propulsion machines, and many others. Following the crackdown on Protestants that began in France in 1572, Besson emigrated to England, where he died in 1573. A new edition of his work appeared in 1578, with more detailed descriptions by François Béroalde de Verville and four replacement engravings by René Boyvin. Shown here is the 1578 edition.",
   "viewingDirection": "left-to-right",
