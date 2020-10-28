@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://haab-digital.klassik-stiftung.de/viewer/rest/iiif/manifests/1104480549/manifest/",
   "@type": "sc:Manifest",
-  "label": "Longinus, Vol II. Theatrum Naturae praeter Curam Magneticam, & veterum Sophorum Sigilla & Imagines Magicas (1611)",
+  "label": "Longinus, Vol II. Theatrum Naturae praeter Curam Magneticam (1611)",
   "metadata": [
     {
       "label": [
