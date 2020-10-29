@@ -235,11 +235,7 @@
               "@type": "oa:Annotation"
             }
           ],
-              "otherContent": [
-            {
-              "@id": "",
-              "@type": "sc:AnnotationList"
-            }],
+              
           "label": "Page 6",
           "@id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3m:g3200m:g3200m:gct00003:or00006i",
           "@type": "sc:Canvas",
