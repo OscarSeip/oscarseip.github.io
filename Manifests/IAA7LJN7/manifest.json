@@ -184,11 +184,6 @@
               "on": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10139601/canvas/1"
             }
           ],
-          "otherContent": [
-            {
-              "@id": "",
-              "@type": "sc:AnnotationList"
-            }],
           "width": 2799,
           "height": 3909
         },
