@@ -1,0 +1,27 @@
+
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/test_manifest.json",
+  "label": "Nouveau Théâtre D`Italie, Ou Description Exacte De Ses Villes, Palais, Eglises, &c. Et les Cartes Geographiques de toutes ses Provinces : Nouveau Theatre D`Italie, Ou Description Exacte De La Ville De Rome, Ancienne, Et Nouvelle",
+  "description": "This work includes fine large panoramic views of Genoa, Venice and Naples, with many detailed plates depicting the building of ancient Rome.",
+  "attribution": "Bibliotheca Hertziana - Max Planck Institute for Art History",
+  "logo": "https://biblhertz.github.io/BHLabs/images/hertzianalogo_hor.svg",
+  "sequences": [
+  	{"@type": "sc:Sequence",
+  		"canvases": [ 
+  			{
+  				"@type": "sc:Canvas",
+  				"@id": "http://dlib.biblhertz.it:8080/iiif/2/Bb780-3040-4@Bb780-3040-4-0001.tiff/full/full/0/default.jpg",
+  				"label": "22",
+  				"width": 3628,
+  				"height": 5500, 
+  				"images": [
+  				]
+  			} 
+  		]
+
+  	}
+  ]
+}
+

@@ -108,12 +108,14 @@
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "@id": "http://dlib.biblhertz.it:8080/iiif/2/Bb780-3040-4@Bb780-3040-4-0002-annotation",
+              
               "resource": {
                 "@id": "http://dlib.biblhertz.it:8080/iiif/2/Bb780-3040-4@Bb780-3040-4-0002.tiff/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpg",
                 "width": 3593,
                 "height": 5500,
+                
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "http://dlib.biblhertz.it:8080/iiif/2/Bb780-3040-4@Bb780-3040-4-0002.tiff",
