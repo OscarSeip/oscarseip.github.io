@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+  </head>
+  <body>
+    <div id="my-mirador"></div> 
+    <script src="https://unpkg.com/mirador@rc/dist/mirador.min.js"></script>
+    <script type="text/javascript">
+      var mirador = Mirador.viewer({
+        "id": "my-mirador",
+        "selectedTheme": "dark",
+        "openManifestsPage": true,
+        "workspace": {
+        "isWorkspaceAddVisible": true
+        },
+      
+      "catalog" : [
+         
+          
+ 
+      ],
+      "annotations": {
+    "htmlSanitizationRuleSet": 'iiif', // See src/lib/htmlRules.js for acceptable values
+    "filteredMotivations": ['oa:commenting', 'oa:tagging', 'sc:painting', 'commenting', 'tagging'],
+  },
+
+      
+      });
+    </script>
+  </body>
+</html>
