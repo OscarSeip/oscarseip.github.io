@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11111565/manifest",
-  "label": "Morhard,  Tractatus de miraculis in creaturis elucentibus. Sive Amphitheatrum Sapientiae Divinae (1631)",
+  "label": "Morhard, Tractatus de miraculis in creaturis elucentibus. Sive Amphitheatrum Sapientiae Divinae (1631)",
   "metadata": [
     {
       "label": [
