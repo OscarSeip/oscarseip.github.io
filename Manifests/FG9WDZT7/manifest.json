@@ -1,0 +1,909 @@
+{
+  "viewingHint": "paged",
+  "attribution": "Universitäts- und Landesbibliothek Sachsen-Anhalt",
+  "service": [],
+  "rendering": {
+    "format": "application/pdf",
+    "size": 7886310,
+    "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/pdf/661722",
+    "label": "Thomae, Trawriger Schawplatz Des im Jahre 1642. belagerten Leipzig (1643)"
+  },
+  "structures": [
+    {
+      "ranges": [
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/range/751309",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/range/751312",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/range/751339"
+      ],
+      "viewingHint": "top",
+      "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/range/661722",
+      "@type": "sc:Range",
+      "label": "Table of Contents"
+    },
+    {
+      "canvases": [
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751310",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751311"
+      ],
+      "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/range/751309",
+      "@type": "sc:Range",
+      "label": "Titelblatt"
+    },
+    {
+      "canvases": [
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751313",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751314",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751315",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751316",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751317",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751318",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751319",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751320",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751321",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751322",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751323",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751324",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751325",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751326",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751327",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751328",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751329",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751330",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751331",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751332",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751333",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751334",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751335",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751336",
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751338"
+      ],
+      "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/range/751312",
+      "@type": "sc:Range",
+      "label": "Abschnitt"
+    },
+    {
+      "canvases": [
+        "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751340"
+      ],
+      "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/range/751339",
+      "@type": "sc:Range",
+      "label": "Rückdeckel"
+    }
+  ],
+  "sequences": [
+    {
+      "canvases": [
+        {
+          "height": 2339,
+          "width": 1896,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751310"
+                },
+                "format": "image/jpeg",
+                "height": 1233,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751310",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751310",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751310",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751310",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2348,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751311"
+                },
+                "format": "image/jpeg",
+                "height": 1241,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751311",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751311",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751311",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751311",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2348,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751313"
+                },
+                "format": "image/jpeg",
+                "height": 1241,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751313",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751313",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751313",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751313",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2356,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751314"
+                },
+                "format": "image/jpeg",
+                "height": 1245,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751314",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751314",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751314",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751314",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2356,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751315"
+                },
+                "format": "image/jpeg",
+                "height": 1245,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751315",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751315",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751315",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751315",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2357,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751316"
+                },
+                "format": "image/jpeg",
+                "height": 1246,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751316",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751316",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751316",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751316",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2357,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751317"
+                },
+                "format": "image/jpeg",
+                "height": 1246,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751317",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751317",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751317",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751317",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2353,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751318"
+                },
+                "format": "image/jpeg",
+                "height": 1244,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751318",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751318",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751318",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751318",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2353,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751319"
+                },
+                "format": "image/jpeg",
+                "height": 1244,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751319",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751319",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751319",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751319",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2347,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751320"
+                },
+                "format": "image/jpeg",
+                "height": 1241,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751320",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751320",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751320",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751320",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2347,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751321"
+                },
+                "format": "image/jpeg",
+                "height": 1241,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751321",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751321",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751321",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751321",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2347,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751322"
+                },
+                "format": "image/jpeg",
+                "height": 1241,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751322",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751322",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751322",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751322",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2347,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751323"
+                },
+                "format": "image/jpeg",
+                "height": 1241,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751323",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751323",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751323",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751323",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2354,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751324"
+                },
+                "format": "image/jpeg",
+                "height": 1244,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751324",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751324",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751324",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751324",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2354,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751325"
+                },
+                "format": "image/jpeg",
+                "height": 1244,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751325",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751325",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751325",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751325",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2339,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751326"
+                },
+                "format": "image/jpeg",
+                "height": 1236,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751326",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751326",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751326",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751326",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2339,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751327"
+                },
+                "format": "image/jpeg",
+                "height": 1236,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751327",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751327",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751327",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751327",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2336,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751328"
+                },
+                "format": "image/jpeg",
+                "height": 1235,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751328",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751328",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751328",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751328",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2336,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751329"
+                },
+                "format": "image/jpeg",
+                "height": 1235,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751329",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751329",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751329",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751329",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2334,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751330"
+                },
+                "format": "image/jpeg",
+                "height": 1234,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751330",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751330",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751330",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751330",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2334,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751331"
+                },
+                "format": "image/jpeg",
+                "height": 1234,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751331",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751331",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751331",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751331",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2336,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751332"
+                },
+                "format": "image/jpeg",
+                "height": 1235,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751332",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751332",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751332",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751332",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2336,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751333"
+                },
+                "format": "image/jpeg",
+                "height": 1235,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751333",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751333",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751333",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751333",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2337,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751334"
+                },
+                "format": "image/jpeg",
+                "height": 1235,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751334",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751334",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751334",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751334",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2337,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751335"
+                },
+                "format": "image/jpeg",
+                "height": 1235,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751335",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751335",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751335",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751335",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2359,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751336"
+                },
+                "format": "image/jpeg",
+                "height": 1247,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751336",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751336",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751336",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751336",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2359,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751338"
+                },
+                "format": "image/jpeg",
+                "height": 1247,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751338",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751338",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751338",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751338",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 2329,
+          "width": 1891,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/751340"
+                },
+                "format": "image/jpeg",
+                "height": 1231,
+                "width": 1000,
+                "@id": "https://digitale.bibliothek.uni-halle.de/vd17/download/webcache/1000/751340",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751340",
+              "motivation": "sc:painting",
+              "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/annotation/751340",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "",
+          "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751340",
+          "@type": "sc:Canvas"
+        }
+      ],
+      "viewingHint": "paged",
+      "startCanvas": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/canvas/751310",
+      "viewingDirection": "left-to-right",
+      "label": "Current Page Order",
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/sequence/normal",
+      "@type": "sc:Sequence"
+    }
+  ],
+  "label": "Trawriger Schawplatz Des im Jahre 1642. belagerten Leipzig",
+  "thumbnail": {
+    "width": 304,
+    "height": 375,
+    "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v21/751310/full/304/0/default.jpg",
+    "@type": "dctypes:Image",
+    "format": "image/jpeg"
+  },
+  "navDate": "1856-01-01T00:00:00Z",
+  "logo": {
+    "@id": "https://digitale.bibliothek.uni-halle.de/domainresource/static/graphics/connectors/viewerLogo.gif",
+    "service": {
+      "profile": "http://iiif.io/api/image/2/profiles/level2.json",
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "http://www.bibliothek.uni-halle.de"
+    }
+  },
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "metadata": [
+    {
+      "value": "Trawriger Schawplatz Des im Jahre 1642. belagerten Leipzig : Dem billichen Mitleiden vorgestellet von Ihrem Trewen / [Johannes Thomae]",
+      "label": "Title"
+    },
+    {
+      "value": "Thomae, Johannes",
+      "label": "Author"
+    },
+    {
+      "value": "[S.l.], 1643",
+      "label": "Published"
+    },
+    {
+      "value": "[14] Bl ; 4°",
+      "label": "Description"
+    },
+    {
+      "value": "Autor nach AK der SLUB Dresden angesetzt",
+      "label": "Annotation"
+    },
+    {
+      "value": "German",
+      "label": "Language"
+    },
+    {
+      "value": "Flugschrift",
+      "label": "Art Form"
+    },
+    {
+      "value": "Halle, Saale : Universitäts- und Landesbibliothek Sachsen-Anhalt, 2009",
+      "label": "Electronic Edition"
+    },
+    {
+      "value": "urn:nbn:de:gbv:3:1-67840",
+      "label": "URN"
+    },
+    {
+      "value": "14:012541E",
+      "label": "VD17"
+    }
+  ],
+  "@id": "https://digitale.bibliothek.uni-halle.de/vd17/i3f/v20/661722/manifest",
+  "@type": "sc:Manifest",
+  "seeAlso": {
+    "format": "application/xml",
+    "@id": "https://digitale.bibliothek.uni-halle.de/vd17/oai?verb=GetRecord&metadataPrefix=mets&identifier=661722",
+    "label": "METS"
+  }
+}
