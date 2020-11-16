@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11256940/manifest",
-  "label": "Camillo, Idea del theatro (1555)",
+  "label": "Camillo, Idea del theatro (1550; digitisation of 1555)",
   "metadata": [
     {
       "label": [
