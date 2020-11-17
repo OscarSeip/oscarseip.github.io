@@ -33,7 +33,16 @@
     }
   ],
   "related": "http://archive.org/details/inscriptionesvel00quic",
-  "seeAlso": "http://archive.org/metadata/inscriptionesvel00quic",
+  
+  "seeAlso": [
+    { "http://archive.org/metadata/inscriptionesvel00quic"},
+
+    { "@id": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/J3FRJTUE/raw_text/Quiccheberg_Theatri_amplissimi.txt",
+      "format": "text/plain",
+      "label": "Download raw text"}
+  ],
+
+
   "sequences": [
     {
       "@context": "http://iiif.io/api/image/2/context.json",
