@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/styl.css">
+
+    <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+
+  </head>
+
+  <body>
+    <h1>Repertorium</h1>
+
+    <div class="navbar">
+          <a href="index.html">Home</a>
+          <a href="repertorium.html">Repertorium</a>
+          <a href="imaginarius.html">Imaginarius</a>
+          <a href="titlelist2.html">Title list</a>
+          <a href="visualisations.html">Visualisations</a>
+          <a href="research.html">Research</a>
+          <a href="https://github.com/OscarSeip/oscarseip.github.io/wiki" target="_blank">Documentation</a>
+          <a href="https://github.com/OscarSeip/oscarseip.github.io" target="_blank">Code</a>
+
+        </div>
+    <div id="mirador"></div>
+
+    <script type="text/javascript">
+
+      Mirador.viewer({
+        "id": "my-mirador",
+        "selectedTheme": "dark",
+        "openManifestsPage": true,
+        "workspace": {
+        "isWorkspaceAddVisible": true
+        },
+      
+      "catalog" : [
+         
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/7LICDDCH/manifest.json", "provider": "University of Virginia Library"}, /* Perrière, Le theatre de bons engins, 1540 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/6AVF8YTD/manifest.json", "provider": "BSB"}, /* Cardano, Artis magnae, 1545 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/GF63APRF/manifest.json", "provider": "BSB"}, /* Camillo, Idea del theatro, 1550; digitisation of 1555 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/6FTP7XCS/manifest.json", "provider": "e-rara"}, /* Boaistuau, Le thèatre de monde, 1559 */
+           {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/J3FRJTUE/manifest.json", "provider": "The Internet Archive"}, /* Quicchelberg, Inscriptiones vel tituli, 1565 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/SJW5295J/manifest.json", "provider": "BSB"}, /* Zwinger, Theatrum humanae vitae, 1565 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/IAA7LJN7/manifest.json", "provider": "BSB"}, /* Mondella, Theatrum Galeni, 1568 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/7HA5D42B/manifest.json", "provider": "Digital Library of Mecklenburg-Vorpommern"}, /* Phalese, Luculentum theatrum musicum, 1568 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/6Y2EZU8X/manifest.json", "provider": "Library of Congress"}, /* Ortelius, 1570 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/A33XUV8P/manifest.json", "provider": "BSB"}, /* Mermannus, 1572 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/KPTZA9TQ/manifest.json", "provider": "BSB"}, /* 1575 */ 
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/VCU674MA/manifest.json", "provider": "World Digital Library"}, /* Besson, Instrumentorum, 1578 */ 
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/A8UUUG5Q/manifest.json", "provider": "BSB"}, /* Adrichem, Theatrum terrae sanctae, 1582; digitisation of 1593 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/83P2EW36/manifest.json", "provider": "BSB"}, /* Garzoni, Il theatro de vari e diversi cervelli mondani, 1583[1585] */ 
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/66XEZDD6/manifest.json", "provider": "BSB"}, /* Saur, Parvvm Theatrvm Vrbivm, Das ist: Erster Anblick vnd Summarischer Außzug... (1585; digitisation of 1593) */ 
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/RWJTCEJ2/manifest.json", "provider": "BSB"}, /* Pandocheus, Doctrinae Pontificae Theatrum, 1586 */   
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/XBH3JWG5/manifest.json", "provider": "e-rara"}, /* Saur, Theatrvm De Veneficis, 1586 */ 
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/TLSSQDIH/manifest.json", "provider": "BSB"}, /* Verstegan, Theatrum Crudelitatum Haereticorum nostri temporis, 1587; digitisation of 1604 */     
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/PHMVQYJB/manifest.json", "provider": "BSB"}, /* Theatrum Mundi, das ist, der Welt Schauplatz, 1588 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/SAC8WLGA/manifest.json", "provider": "BSB"}, /* 1589 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/RIJKHYKC/manifest.json", "provider": "BSB"}, /* 1592 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/Q3RIN832/manifest.json", "provider": "BSB"}, /* Kolding, 1594 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/34SNZLG8/manifest.json", "provider": "BSB"}, /* 1595 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/PKSNFU7Q/manifest.json", "provider": "BSB"}, /* Bodin, Universae naturae Theatrum, 1596 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/EGS4LY3R/manifest.json", "provider": "BSB"}, /* 1596 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/6EFJ4F9V/manifest.json", "provider": "Wellcome Library"}, /* Beard, Theatre of Gods judgements, 1597 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/HTYFKVHM/manifest.json", "provider": "BSB"}, /* Hondorf, Theatrum historicum, 1598; digitisation of 1607 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/MKHEKLHW/manifest.json", "provider": "BSB"}, /* 1599 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/F8NQ5NC8/manifest.json", "provider": "BSB"}, /* Bertius, Atlas minor sive universi terrarum orbis theatrum, 1600 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/YDL6FHHE/manifest.json", "provider": "BSB"}, /* Heidfeld, Sphinx Philosophica, 1600 */
+         
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/99W4QEVI/manifest.json", "provider": "BSB"}, /* Bauhin, Theatrum anatomicum, 1605 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/CCNI6RKG/manifest.json", "provider": "BSB"}, /* Scribanius, Clari Bonarscii Amphitheatrum honoris, 1605 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/UWSLNBC3/manifest.json", "provider": "The Internet Archive"}, /* Giganti and Fialetti, Scola, overo, Teatro, 1606 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/JR5G4JWN/manifest.json", "provider": "BSB"}, /* Cicogna, Magiae omnifariae theatrum, 1606 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/4EL6GZ2F/manifest.json", "provider": "BNF"}, /* Zonca, Novo teatro di machine et edificii, 1607 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/DGDSKX35/manifest.json", "provider": "Universitäts- und Landesbibliothek Sachsen-Anhalt"}, /* Khunrath, Amphitheatrum Sapientiae Aeternae Solius Verae, 1608 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/58JLI5MH/manifest.json", "provider": "BNF"}, /* Sadeler, theatrum morum, 1608 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/YW3TJSVU/manifest.json", "provider": "BSB"}, /* Peckenstein, Theatrum Saxonicum. 1, [1608] */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/XNCE5UCI/manifest.json", "provider": "BSB"}, /* Peckenstein, Theatrum Saxonicum. 2, 1608 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/L89ZR4CN/manifest.json", "provider": "BSB"}, /* Peckenstein, Theatrum Saxonicum. 3, [1608] */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/R7XMFGHS/manifest.json", "provider": "BSB"}, /* Bosquier, Theatrum Patientiae, 1610 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/JZ7VV4XN/manifest.json", "provider": "HAAB"}, /* Helwig, Theatrum Historicum: Sive Chronologiae Systema Novum, 1609 [digitisation of 1628] */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/AV8Q7DY6/manifest.json", "provider": "HAAB"}, /* Longinus, Vol II. Theatrum Naturae praeter Curam Magneticam, 1611 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/H2Z97VQG/manifest.json", "provider": "DFG"}, /* Tympe, Admirandum Vindictae Divinae Theatrum, 1611 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/948REF6N/manifest.json", "provider": "The Internet Archive"}, /* Du Breul, Le theatre des antiquitez de Paris, 1612 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/29S3NCU4/manifest.json", "provider": "BSB"}, /* Herbst, Theatrum Amoris, 1613 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/CS9U2G9J/manifest.json", "provider": "BSB"}, /* Beatus, Amphitheatrum naturae, 1614 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/TLBY9LY9/manifest.json", "provider": "HAAB"}, /* Beatus, Amphitheatrum naturae, 1614 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/Z58MDENQ/manifest.json", "provider": "Foundation of the Works of C.G. Jung"}, /* Vanini, Amphitheatrum aeternae providentiae divino-magicum, 1615 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/5WKWM456/manifest.json", "provider": "BSB"}, /* Messenius, Theatrum nobilitatis Suecanae, 1616 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/9MKP6QCC/manifest.json", "provider": "BSB"}, /* Megiser, Theatrvm Caesarevm Historico-Poëticum, 1616 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/XM2SLUUQ/manifest.json", "provider": "BSB"}, /* Colle, De Idea et theatro imitatricium et imitabilium, 1617 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/3P6522P9/manifest.json", "provider": "BSB"}, /* Perera, Theatrum Rerum Creatarum, 1618 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/LZFU2S5J/manifest.json", "provider": "BSB"}, /* Dornau, Amphitheatrum Sapientiae Socraticae Joco-Seriae, 1619 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/TILGV37G/manifest.json", "provider": "BSB"}, /* Garzoni, Piazza Universale, das ist, Allgemeiner Schawplatz.., 1619 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/JWGJ9GQ9/manifest.json", "provider": "BSB"}, /* Bellintani, Teatro Del Paradiso. 1, 1620 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/MR5ZAN5T/manifest.json", "provider": "BSB"}, /* Bellintani, Teatro Del Paradiso. 2, 1620 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/LYZ53ZHG/manifest.json", "provider": "BNF"}, /* Rossi, Elogi historici di Bresciani illustri. Teatro di Ottavio Rossi, 1620 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/SG8EZKNY/manifest.json", "provider": "BNF"}, /* Chiesa, Theatro delle donne letterate, 1620 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/MCHXWW36/manifest.json", "provider": "The Internet Archive"}, /* Bauhin, Prodromos theatri botanici, 1620 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/WDHESFXY/manifest.json", "provider": "BNF"}, /* Boitel, Le théâtre tragique, 1621 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/A3C4RJ6L/manifest.json", "provider": "BSB"}, /* Zeising, Theatrum machinarum. 1, [1621] */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/EWXVKUBB/manifest.json", "provider": "BSB"}, /* Zeising, Theatrum machinarum. 2, [1621] */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/XN74LY4J/manifest.json", "provider": "BSB"}, /* Zeising, Theatrum machinarum. 3, [1621] */
+           {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/WBKVFMUU/manifest.json", "provider": "CAU"}, /* Heldvader, Amphitheatrum Fidei Catholicæ, 1622 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/XHBA688Y/manifest.json", "provider": "BSB"}, /* König, Theatrum politicum tripartitum, 1622 */  
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/S49GJR4H/manifest.json", "provider": "BNF"}, /* Rabel, Theatrum florae, 1622 */ 
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/J6AX47EK/manifest.json", "provider": "The Internet Archive"}, /* Fludd, Anatomiae amphitheatrum, 1623 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/7YYFEQ79/manifest.json", "provider": "The Internet Archive"}, /* Ferro, Teatro d'imprese, 1623 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/XWFSECBW/manifest.json", "provider": "BSB"}, /* Schelius, Theatrum Caesarum Romanorum, 1623 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/VU9H5KC3/manifest.json", "provider": "The Internet Archive"}, /* Gonzáles Dávila, Teatro de las grandezas de la villa de Madrid, 1623 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/5K33F3K9/manifest.json", "provider": "BNF"}, /* Bauhin, Pinax Theatri botanici, 1623 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/EJ3AP4AR/manifest.json", "provider": "The Internet Archive"}, /* Fonseca, Amphitheatrum amorum, 1623 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/KTCPPZT2/manifest.json", "provider": "BSB"}, /* Anonymous, Theatrum Iaponiensis, 1624 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/TRPJFRVW/manifest.json", "provider": "BSB"}, /* Gallo, Il Sagro Teatro Di Primavera, 1626; digitisation of 1629 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/NT5R5VSF/manifest.json", "provider": "BSB"}, /* Weston, Theatrum vitae civilis ac sacrae, 1626 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/FKI7AVAI/manifest.json", "provider": "BNF"}, /* Jousse, Le theatre de l'art de charpentier, 1627 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/PV7LNCZ9/manifest.json", "provider": "BSB"}, /* Marliani, Theatrum politicum, 1627; digitisation of 1645 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/6BRJ8M8D/manifest.json", "provider": "Niedersächsische Staats- und Universitätsbibliothek Göttingen"}, /* Herold, Theatrum Divum Dearumve, 1628 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/ACU2W32F/manifest.json", "provider": "BSB"}, /* Lambertini, Theatrvm Regivm Sive Regvm Hispaniae, 1628 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/4EK9SSQM/manifest.json", "provider": "BSB"}, /* Rosset & Zeiller, Theatrum tragicum, 1628 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/IWNIPZFL/manifest.json", "provider": "Internet Archive"}, /* Ferro, Ombre apparenti nel Teatro d'imprese, 1629 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/8FIBEM6I/manifest.json", "provider": "Internet Archive"}, /* Vitale, Teatro serafico delle stimmate di Christo, 1629 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/WM4CATJF/manifest.json", "provider": "BNF"}, /* Camus, L'Amphithéatre sanglant, 1630 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/EG7NXBFX/manifest.json", "provider": "BNF"}, /* Morhard, Tractatus de miraculis in creaturis elucentibus, 1631 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/JVGBCD6U/manifest.json", "provider": "BNF"}, /* Oppersdorff, Theatrum Posthumi Honoris Benignae Polyxenae Promnicianae, 1631 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/M9CCAS25/manifest.json", "provider": "BSB"}, /* Neuhusius, Theatrum ingenii humani, 1633; digitisation of 1664 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/EIZE7JGF/manifest.json", "provider": "BSB"}, /* Moffet, Insectorum sive minimorum animalium theatrum, 1634 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/VZXAUNG4/manifest.json", "provider": "BSB"}, /* Praetorius, Theatrum ethicum et politicum, 1634; digitisation of 1661 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/HRA0340/manifest.json", "provider": "The Internet Archive"}, /* Espinosa de los Monteros, Teatro de la santa iglesia metropolitana de Seuilla, 1635 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/FP9NS6J2/manifest.json", "provider": "BSB"}, /* Davila, Teatro eclesiastico de la S. Iglesia de Oviedo, 1635 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/SPN4LTV6/manifest.json", "provider": "BSB"}, /* Boldoni, Theatrum temporaneum aeternitati Caesaris Montii, 1636 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/GXGX32B9/manifest.json", "provider": "Niedersächsische Staats- und Universitätsbibliothek Göttingen"}, /* Ritter, Theatrum Cosmographicum, 1636 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/QLXT2AH7/manifest.json", "provider": "BSB"}, /* Helwig, Theatrum historicum, 1638 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/FR2B5R7Y/manifest.json", "provider": "The Internet Archive"}, /* Parkinson, Theatrum botanicum: the theater of plants, 1640 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/FG9WDZT7/manifest.json", "provider": "Universitäts- und Landesbibliothek Sachsen-Anhalt"}, /* Thomae, Trawriger Schawplatz Des im Jahre 1642. belagerten Leipzig, 1643 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/P44TUGDC/manifest.json", "provider": "Niedersächsische Staats- und Universitätsbibliothek Göttingen"}, /* Marlot, Le theatre d'honneur et de magnificence, preparé au sacre des roys, 1643 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/ZN2FGXTG/manifest.json", "provider": "BNF"}, /* Avity, Nouveau theatre du monde, 1644; digitisation of 1655 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/EBNWLR2K/manifest.json", "provider": "BNF"}, /* Desprez, Le théâtre des animaux, 1644 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/MUUKDBFM/manifest.json", "provider": "BSB"}, /* Deusing, Naturae theatrum universale, 1644 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/VPVCGRFQ/manifest.json", "provider": "BSB"}, /* Locatelli, Theatro D'Arcani, 1644 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/Q69JQ62X/manifest.json", "provider": "BSB"}, /* Theuli, Teatro historico di Velletri insigne città, e capo de'Volsci, 1644 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/7WIID2PN/manifest.json", "provider": "The Internet Archive"}, /* Grenaille, Le Théâtre de l'univers ou l'abrégé du monde, 1646 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/WT5ZXJDW/manifest.json", "provider": "BSB"}, /* Ghilini, Teatro d'huomini letterati, 1647; digitisation of ca1650 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/B24NR3JF/manifest.json", "provider": "Niedersächsische Staats- und Universitätsbibliothek Göttingen"}, /* Harsdörffer, Der Grosse SchauPlatz Lust- und Lehrreicher Geschichte, 1648 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/QBXWSQ9I/manifest.json", "provider": "BNF"}, /* Dinet, Le Théâtre de la Noblesse françoise. 1, 1648 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/DM77EBDI/manifest.json", "provider": "BNF"}, /* Dinet, Le Théâtre de la Noblesse françoise. 2, 1648 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/A54VNBDH/manifest.json", "provider": "BSB"}, /* Matthiae, Theatrum historicum theoretico-practicum, 1648; digitisation of 1689 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/MJLVVT2H/manifest.json", "provider": "BSB"}, /* Sandaeus, Theatrvm Amantium, Colentium, Imitantium Christvm Crvcifixvm, 1648 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/8NNLNKGH/manifest.json", "provider": "BSB"}, /* Du Moulin, Tragicum Theatrum Actorum, & Casuum Tragicorum Londini Publice celebratorum, 1649 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/6QVUGLZ3/manifest.json", "provider": "The Internet Archive"}, /* Cacace, Theatrvm omnivm scientiarvm, 1650 */
+
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/YYRF9LK8/manifest.json", "provider": "BSB"}, /* Jacobus, Theatrum palladium, 1650 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/BDKFCEQF/manifest.json", "provider": "BSB"}, /* Stratemann, Theatrum historicum, 1656 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/DRLLI26F/manifest.json", "provider": "BSB"}, /* Bennet, Tabidorum Theatrum, 1656; digitisation of 1665 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/JJFPMW7J/manifest.json", "provider": "BSB"}, /* Nicolaus, Theatrum medico-practicum, 1658 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/MSYWZXVY/manifest.json", "provider": "Bibliothèque de l'EPFL"}, /* Bockler, Theatrum machinarum novum, 1662 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/TLI832XQ/manifest.json", "provider": "BSB"}, /* Anonymous, Theatrum sympatheticum auctum, 1662 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/Z5ZH3MYI/manifest.json", "provider": "BSB"}, /* Anonym, Theatrum Pacis, 1663 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/3TBVQEA4/manifest.json", "provider": "BSB"}, /* Wilhelmi, Theatrum Historicum, 1663 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/9TTEHD2N/manifest.json", "provider": "BSB"}, /* Meyer, Theatrum historicum, 1665 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/5ZUIA762/manifest.json", "provider": "BSB"}, /* Leenheer, Theatrum stultorum iocoserium, 1669 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/68H99PA3/manifest.json", "provider": "BSB"}, /* Du Baas, Eröffnetes Theatrum, 1674 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/KSEMPBHF/manifest.json", "provider": "BSB"}, /* Aicher, Theatrum Funebre, 1675 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/9TCIZL7X/manifest.json", "provider": "BSB"}, /* Adrichem, Theatrum terrae Sanctae, 1682 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/IJCH8HLB/manifest.json", "provider": "BSB"}, /* Anonymous, Theatrum novellarum mundi, 1685 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/GK6B23I3/manifest.json", "provider": "BSB"}, /* Judendunck, Theatrum lanienae Coloniensis, 1694 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/IDQFTLYQ/manifest.json", "provider": "BSB"}, /* Blankaart, Theatrum Chimicum, 1694 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/M8P35AIY/manifest.json", "provider": "BSB"}, /* Füesslin, Theatrum Gloriae Sanctorum, 1696 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/VDGK23V5/manifest.json", "provider": "BSB"}, /* Weise, Christian Weisens Zittauisches Theatrum, 1699 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/2EITTKXH/manifest.json", "provider": "BSB"}, /* Koch, Theatrum Victoriosum, 1700 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/PDEHJ7A9/manifest.json", "provider": "BSB"}, /* Anonymous, Neu-eröffnetes Liefländisches Theatrum, 1701 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/NBC7HMPR/manifest.json", "provider": "Oxford Libraries"}, /* Rusting, Schouwtoneel des doods, 1707 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/ZS338CB6/manifest.json", "provider": "BSB"}, /* Zeising, Theatrum machinarum. 4, [1708] */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/2N4LKMHI/manifest.json", "provider": "BSB"}, /* Zeising, Theatrum machinarum. 5, [1708] */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/ANF6G95W/manifest.json", "provider": "BSB"}, /* Zwinger, Theatrum praxeos Medicae, 1710 */ 
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/XEU22J8B/manifest.json", "provider": "BSB"}, /* Arpe, Theatrum fati, 1712 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/ZUNTZQD8/manifest.json", "provider": "BSB"}, /* Anonymous, Venetianisch-Türkisches Kriegs-Theatrum, 1716 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/J79PGXMW/manifest.json", "provider": "BSB"}, /* Lang, Theatrum solitudinis asceticae, 1717 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/B7WLG3NN/manifest.json", "provider": "BSB"}, /* Auda, Theatrum regularium, 1717 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/DMUC44RL/manifest.json", "provider": "BSB"}, /* Neistyfter, Theatrum Passionum Animae, [1721] */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/4JXQQNF5/manifest.json", "provider": "BSB"}, /* Leupold, Theatrum Machinarvm Generale, TM I 1724 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/CB6XCIKT/manifest.json", "provider": "BSB"}, /* Leupold, Theatrum machinarum hydrotechnicarum, TM II 1724 */ 
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/54YVDNDI/manifest.json", "provider": "BSB"}, /* Franckenstein, Englisches Theatrum, 1725 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/HAWLVBD6/manifest.json", "provider": "BSB"}, /* Bacon, Deutsche Theatrum Chemicum, I, 1728 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/LXN8VDYJ/manifest.json", "provider": "BSB"}, /* Bacon, Deutsche Theatrum Chemicum, II, 1730 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/CZECBGP6/manifest.json", "provider": "BSB"}, /* Bacon, Deutsche Theatrum Chemicum, III, 1732 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/QW7WSM8E/manifest.json", "provider": "BSB"}, /* Menzel, Neuestes Teutsches Reichstags-Theatrum. 1, [1733] */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/4RARF4HW/manifest.json", "provider": "BSB"}, /* Neumayr, Theatrum asceticum 1747 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/UYDGBJ3W/manifest.json", "provider": "BSB"}, /* Neumayr, Theatrum Politicum, 1760 */
+          {"manifestId": "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/8CV5W285/manifest.json", "provider": "BSB"}, /* Eschenbender, Theatrum Lyricum, 1768 */
+
+
+
+          /*
+         
+
+          {"manifestId": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10769901", "provider": "BSB"}, /* Marliani, Theatrum politicum, 1684 *
+          {"manifestId": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10769903", "provider": "BSB"}, /* Marliani, Theatrum politicum, 1692 *
+          {"manifestId": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10769906", "provider": "BSB"}, /* Marliani, Theatrum politicum, 1753 *
+          {"manifestId": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11282679", "provider": "BSB"}, /* Marliani, Theatrum politicum, 1753 *
+          
+          {"manifestId": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10596526", "provider": "BSB"}, /* Hondorf, Theatrum historicum, 1616 *
+          
+          {"manifestId": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10368749", "provider": "BSB"}, /* Bennet, Tabidorum theatrum, 1714 *
+          {"manifestId": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11267997", "provider": "BSB"}, /* Bennet, Tabidorum theatrum, 1742 *
+
+          {"manifestId": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb11196483", "provider": "BSB"}, /* Messenius, Theatrum nobilitatis Suecanae, 1616 *
+          */
+ 
+      ],
+      "annotations": {
+    "htmlSanitizationRuleSet": 'iiif', // See src/lib/htmlRules.js for acceptable values
+    "filteredMotivations": ['oa:commenting', 'oa:tagging', 'sc:painting', 'commenting', 'tagging'],
+  },
+
+      
+      });
+    </script>
+  </body>
+</html>
