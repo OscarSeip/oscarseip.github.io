@@ -1,3 +1,28 @@
+/* Mirador */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+#mirador {
+  height: 75vh;
+  position: relative;
+  width: 100%;
+}
+
+#mirador2 {
+  height: 75vh;
+  position: relative;
+  width: 100%;
+}
+
+/* Other CSS */
 
 /* Header */
 .header {
