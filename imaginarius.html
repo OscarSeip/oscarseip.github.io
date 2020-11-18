@@ -3,14 +3,34 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
   </head>
+
   <body>
-    <div id="my-mirador"></div> 
-    <script src="https://unpkg.com/mirador@rc/dist/mirador.min.js"></script>
+    <div class="header">
+    <h1>Theatres of Knowledge</h1>
+    <p>A database of printed books that have the word theatre in their title, published between the 16th and 18th century in Europe</p>
+    </div>
+
+    <div class="navbar">
+          <a href="index.html">Home</a>
+          <a href="repertorium.html">Repertorium</a>
+          <a href="imaginarius.html">Imaginarius</a>
+          <a href="titlelist2.html">Title list</a>
+          <a href="visualisations.html">Visualisations</a>
+          <a href="research.html">Research</a>
+          <a href="https://github.com/OscarSeip/oscarseip.github.io/wiki" target="_blank">Documentation</a>
+          <a href="https://github.com/OscarSeip/oscarseip.github.io" target="_blank">Code</a>
+        </div>
+
+    <div id="mirador"></div>
+
     <script type="text/javascript">
-      var mirador = Mirador.viewer({
-        "id": "my-mirador",
+
+      const mirador = Mirador.viewer({
+        "id": "mirador",
         "selectedTheme": "dark",
         "openManifestsPage": true,
         "workspace": {
