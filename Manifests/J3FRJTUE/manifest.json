@@ -30,31 +30,19 @@
     {
       "label": "creator",
       "value": "Quicchelberg, Samuel, 1529-1567"
-    },
-    {
-      "label": "",
-      "value": "<a href='https://www.zotero.org/groups/2586230/theatres_of_knowledge/items/J3FRJTUE/library'>View in Zotero Database</a>"
-    },
-    {
-      "label": "",
-      "value": "<a href='https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/J3FRJTUE/quicc_raw.txt'>View Raw Text</a>"
-    },
-    {
-      "label": "",
-      "value": "<a href='https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/J3FRJTUE/quicc_raw.txt' download='https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/J3FRJTUE/quicc_raw.txt'>Download Raw Text</a>"
-
     }
   ],
   "related": "http://archive.org/details/inscriptionesvel00quic",
   "seeAlso": [
     {
       "id": "https://www.zotero.org/groups/2586230/theatres_of_knowledge/items/J3FRJTUE/library",
-      "label": "Zotero Database",
+      "label": "View Work in the Zotero Database",
       "type": "Database"
     },
     {
-      "id":  "http://archive.org/metadata/inscriptionesvel00quic",
-      "type": "metadata"
+      "id":  "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/J3FRJTUE/quicc_raw.txt",
+      "type": "text",
+      "label": "View Raw Text"
     }
   ],
 
