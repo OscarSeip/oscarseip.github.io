@@ -46,7 +46,20 @@
     }
   ],
   "related": "http://archive.org/details/inscriptionesvel00quic",
-  "seeAlso": "http://archive.org/metadata/inscriptionesvel00quic",
+  "seeAlso": [
+    {
+      "id": "https://www.zotero.org/groups/2586230/theatres_of_knowledge/items/J3FRJTUE/library",
+      "type": "Database",
+      "label": { "en": [ "Bibliographic Description"]},
+    },
+    {
+      "id":  "http://archive.org/metadata/inscriptionesvel00quic",
+      "type": "metadata"
+    }
+  ],
+
+
+ 
   "sequences": [
     {
       "@context": "http://iiif.io/api/image/2/context.json",
