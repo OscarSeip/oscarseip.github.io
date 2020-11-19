@@ -2111,7 +2111,8 @@
     }
   ],
   "thumbnail": {
-    "@id": "https://iiif.archivelab.org/iiif/inscriptionesvel00quic$3"
+    "@id": "https://iiif.archivelab.org/iiif/inscriptionesvel00quic$3",
+    "format": "image/jpeg"
   },
   "viewingHint": "paged"
 }
