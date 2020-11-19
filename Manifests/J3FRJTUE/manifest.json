@@ -49,8 +49,7 @@
   "seeAlso": [
     {
       "id": "https://www.zotero.org/groups/2586230/theatres_of_knowledge/items/J3FRJTUE/library",
-      "type": "Database",
-      "label": { "en": [ "Bibliographic Description"]},
+      "type": "Database"
     },
     {
       "id":  "http://archive.org/metadata/inscriptionesvel00quic",
