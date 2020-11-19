@@ -65,6 +65,7 @@
   padding: 20px; /* Some padding */
   text-align: center; /* Center text*/
   background: #ddd; /* Grey background */
+  font-family: Merriweather, sans-serif;
 }
 
 .article {
