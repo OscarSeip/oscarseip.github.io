@@ -37,7 +37,7 @@
     },
     {
       "label":"",
-      "value":"<a href='https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/J3FRJTUE/quicc_raw.txt'>Raw Text</a>"
+      "value":"<a download href='https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/J3FRJTUE/quicc_raw.txt'>Download Raw Text</a>"
     }
   ],
   "related": "http://archive.org/details/inscriptionesvel00quic",
