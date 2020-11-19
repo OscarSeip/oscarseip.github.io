@@ -36,13 +36,13 @@
   "seeAlso": [
     {
       "id": "https://www.zotero.org/groups/2586230/theatres_of_knowledge/items/J3FRJTUE/library",
-      "label": "View Work in the Zotero Database",
+      "label": "Zotero Database entry",
       "type": "Database"
     },
     {
       "id":  "https://raw.githubusercontent.com/OscarSeip/oscarseip.github.io/master/Manifests/J3FRJTUE/quicc_raw.txt",
       "type": "text",
-      "label": "View Raw Text"
+      "label": "Raw Text"
     }
   ],
 
