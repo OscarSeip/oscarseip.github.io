@@ -2100,6 +2100,7 @@
   ],
   "thumbnail": {
     "@id": "https://iiif.archivelab.org/iiif/inscriptionesvel00quic$3",
+    "type": "Image",
     "format": "image/jpeg"
   },
   "viewingHint": "paged"
